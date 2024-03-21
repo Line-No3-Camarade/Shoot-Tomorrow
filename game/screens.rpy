@@ -296,33 +296,52 @@ screen navigation():
 
         if main_menu:
 
-            textbutton _("시작하기") action Start()
+            textbutton _("시작하기"):
+                hover_sound("audio/Handling_Trimmed.mp3")
+                activate_sound("audio/Gunfire_Trimmed.mp3")
+                action Start()
 
-            textbutton _("엔딩목록") action ShowMenu("endings")
+            textbutton _("엔딩목록"):
+                hover_sound("audio/Handling_Trimmed.mp3")
+                activate_sound("audio/Gunfire_Trimmed.mp3")
+                action ShowMenu("endings")
 
-            textbutton _("수집정보") action ShowMenu("achievements")
+            textbutton _("수집정보"):
+                hover_sound("audio/Handling_Trimmed.mp3")
+                activate_sound("audio/Gunfire_Trimmed.mp3")
+                action ShowMenu("achievements")
+            
+            textbutton _("불러오기"):
+                hover_sound("audio/Handling_Trimmed.mp3")
+                activate_sound("audio/Gunfire_Trimmed.mp3")
+                action ShowMenu("load")
 
-            #textbutton _("버전정보") action ShowMenu("about")
+            textbutton _("환경설정"):
+                hover_sound("audio/Handling_Trimmed.mp3")
+                activate_sound("audio/Gunfire_Trimmed.mp3")
+                action ShowMenu("preferences")
 
         else:
 
-            textbutton _("대사록") action ShowMenu("history")
+            textbutton _("대사록"):
+                action ShowMenu("history")
 
-            textbutton _("저장하기") action ShowMenu("save")
+            textbutton _("저장하기"):
+                action ShowMenu("save")
 
-            textbutton _("메인 메뉴") action MainMenu()
+            textbutton _("메인 메뉴"):
+                action MainMenu()
+            
+            textbutton _("불러오기"):
+                action ShowMenu("load")
 
-        #textbutton _("엔딩목록") action ShowMenu("endings")
-
-        #textbutton _("수집정보") action ShowMenu("achievements")
+            textbutton _("환경설정"):
+                action ShowMenu("preferences")
 
         if _in_replay:
 
-            textbutton _("리플레이 끝내기") action EndReplay(confirm=True)
-        
-        textbutton _("불러오기") action ShowMenu("load")
-
-        textbutton _("환경설정") action ShowMenu("preferences")
+            textbutton _("리플레이 끝내기"):
+                action EndReplay(confirm=True)
 
         #textbutton _("버전정보") action ShowMenu("about")
 

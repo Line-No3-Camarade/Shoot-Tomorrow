@@ -1,28 +1,26 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "renpy/common/00start.rpy", line 278, in script
-    python:
-ScriptError: could not find label 'script_ep5'.
+  File "game/script.rpy", line 240, in script
+    $ renpy.sound.play(sound, "Gunfire_Trimmed.mp3")
+  File "game/script.rpy", line 240, in <module>
+    $ renpy.sound.play(sound, "Gunfire_Trimmed.mp3")
+NameError: name 'sound' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "D:\michelle\renpy-8.0.3-sdk\renpy\bootstrap.py", line 277, in bootstrap
-    renpy.main.main()
-  File "D:\michelle\renpy-8.0.3-sdk\renpy\main.py", line 660, in main
-    run(restart)
-  File "D:\michelle\renpy-8.0.3-sdk\renpy\main.py", line 146, in run
-    renpy.execution.run_context(True)
-  File "D:\michelle\renpy-8.0.3-sdk\renpy\execution.py", line 938, in run_context
-    context.run()
-  File "renpy/common/00start.rpy", line 278, in script
-    python:
-  File "D:\michelle\renpy-8.0.3-sdk\renpy\script.py", line 927, in lookup
-    raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'script_ep5'.
+  File "game/script.rpy", line 240, in script
+    $ renpy.sound.play(sound, "Gunfire_Trimmed.mp3")
+  File "renpy/ast.py", line 928, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "renpy/python.py", line 2245, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/script.rpy", line 240, in <module>
+    $ renpy.sound.play(sound, "Gunfire_Trimmed.mp3")
+NameError: name 'sound' is not defined
 
-Windows-10-10.0.22000 AMD64
-Ren'Py 8.0.3.22090809
+Windows-10-10.0.22621
+Ren'Py 7.4.11.2266
 Shoot Tomorrow 1.0
-Sat Sep  2 11:09:08 2023
+Thu Mar 21 19:45:04 2024

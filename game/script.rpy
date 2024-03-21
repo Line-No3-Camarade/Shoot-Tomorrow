@@ -237,6 +237,7 @@ label start:
 
 # Intro
 label intro:
+    $ renpy.pause(2.0, hard=True)
     
     # Intro
     $ renpy.pause(1.0, hard=True)
