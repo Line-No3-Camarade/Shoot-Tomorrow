@@ -54,6 +54,7 @@ label script_opening:
             $ persistent.kog_selected = True
             $ persistent.jh_selected = False
             "계속하시겠습니까?"
+            jump script_kog
         
         "한정훈":
             hide kog
@@ -64,5 +65,8 @@ label script_opening:
             $ persistent.jh_selected = True
             $ persistent.kog_selected = False
             "계속하시겠습니까?"
+            jump script_hjh
+    
+    return
 
 

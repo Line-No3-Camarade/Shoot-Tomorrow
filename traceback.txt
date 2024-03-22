@@ -1,26 +1,22 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 240, in script
-    $ renpy.sound.play(sound, "Gunfire_Trimmed.mp3")
-  File "game/script.rpy", line 240, in <module>
-    $ renpy.sound.play(sound, "Gunfire_Trimmed.mp3")
-NameError: name 'sound' is not defined
+  File "game/script.rpy", line 255, in script
+    jump script_kog_1
+ScriptError: could not find label 'script_kog_1'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 240, in script
-    $ renpy.sound.play(sound, "Gunfire_Trimmed.mp3")
-  File "renpy/ast.py", line 928, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "renpy/python.py", line 2245, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "game/script.rpy", line 240, in <module>
-    $ renpy.sound.play(sound, "Gunfire_Trimmed.mp3")
-NameError: name 'sound' is not defined
+  File "game/script.rpy", line 255, in script
+    jump script_kog_1
+  File "renpy/ast.py", line 1757, in execute
+    rv = renpy.game.script.lookup(target)
+  File "renpy/script.py", line 918, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'script_kog_1'.
 
 Windows-10-10.0.22621
 Ren'Py 7.4.11.2266
 Shoot Tomorrow 1.0
-Thu Mar 21 19:45:04 2024
+Fri Mar 22 12:58:31 2024

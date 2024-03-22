@@ -9,6 +9,7 @@ image deck = "bg image/bg_deck.jpg"
 image hallway = "bg image/bg_hallway.jpg"
 image harbor = "bg image/보정/bg_harbor.png"
 image hotel = "bg image/bg_hotel.jpg"
+image kog_house = "bg image/bg_kog_house.png"
 image library = "bg image/bg_library.jpg"
 image nightsea = "bg image/bg_nightsea.jpg"
 image palaceis = "bg image/bg_palaceis.jpg"
@@ -240,16 +241,21 @@ label intro:
     $ renpy.pause(2.0, hard=True)
     
     # Intro
-    $ renpy.pause(1.0, hard=True)
-    show text "‘Original: Musical Gone Tomorrow’" with fade
-    $ renpy.pause(1.0, hard=True)
-    show text "‘제작 - 삼호선 까마하드’" with fade
-    $ renpy.pause(1.0, hard=True)
-    show text "‘SHOOT TOMORROW’" with fade
-    $ renpy.pause(1.0, hard=True)
-    show text "‘끝은 새로운 시작이니, 누군가는 그 길을 가야 한다’" with fade
-    $ renpy.pause(1.0, hard=True)
-    hide text with fade
+    # $ renpy.pause(1.0, hard=True)
+    # show text "‘Original: Musical Gone Tomorrow’" with fade
+    # $ renpy.pause(1.0, hard=True)
+    # show text "‘제작 - 삼호선 까마하드’" with fade
+    # $ renpy.pause(1.0, hard=True)
+    # show text "‘SHOOT TOMORROW’" with fade
+    # $ renpy.pause(1.0, hard=True)
+    # show text "‘끝은 새로운 시작이니, 누군가는 그 길을 가야 한다’" with fade
+    # $ renpy.pause(1.0, hard=True)
+    # hide text with fade
+
+    #### TEST ####
+    jump script_kog
+    #### TEST ####
+
 
     jump script_opening
     return
