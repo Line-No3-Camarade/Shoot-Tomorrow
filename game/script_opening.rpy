@@ -1,4 +1,27 @@
+# 지속데이터 정의
+default persistent.jh_selected = False
+default persistent.kog_selected = False
+
+default in_opening = False
+
+label saving(savable = True):
+    if savable:
+        python:
+            _autosave = True
+            _game_menu_scree = "save"
+            in_opening = False
+    else:
+        python:
+            _autosave = False
+            _game_menu_scree = "preferences"
+            in_opening = True
+    return
+
 label script_opening:
+    default persistent.start = False
+
+    #### 저장 막아 두기 ####
+    call saving(False)
 
     scene tatami
     "창호 바른 미닫이문이 양옆으로 열리며 때늦은 햇살이 쏟아져 들어왔다."
@@ -43,6 +66,9 @@ label script_opening:
     "캐릭터를 선택해 인생을 살아 보세요."
     "한 캐릭터 이야기의 끝을 확인하기 전까지 다른 캐릭터의 삶은 확인할 수 없습니다."
 
+    $ persistent.start = True
+    call saving
+    #### 저장 막아 두기 ####
 
     menu:
         "김옥균":
@@ -68,6 +94,7 @@ label script_opening:
             $ persistent.kog_selected = False
             play sound "audio/Gunfire_Trimmed.mp3"
             jump script_hjh
+    
     
     return
 

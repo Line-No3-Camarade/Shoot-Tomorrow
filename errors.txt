@@ -2,9 +2,13 @@
 errors listed below, and try again.
 
 
-File "game/screens.rpy", line 326: u'else' is not a keyword argument or valid child for the vbox statement.
-    else:
-        ^
+File "game/script.rpy", line 256: expected ':' not found.
+    else if (persistent.jh_selected):
+         ^
+
+File "game/script.rpy", line 259: expected statement.
+    else if (persistent.kog_selected):
+         ^
 
 Ren'Py Version: Ren'Py 7.4.11.2266
-Thu Mar 21 19:42:03 2024
+Fri Mar 22 17:04:49 2024

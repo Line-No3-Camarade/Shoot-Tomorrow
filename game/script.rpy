@@ -215,25 +215,14 @@ define config.hard_rollback_limit = 0
 
 screen remove_rollback():
     key "K_PAGEUP" action NullAction
-    # key "'repeat_K_PAGEUP'" action NullAction
     key "K_AC_BACK" action NullAction
     key "mousedown_4" action NullAction
     key "joy_rollback" action NullAction
 
-# 지속데이터 정의
-default persistent.jh_selected = False
-default persistent.kog_selected = False
-default persistent.ep1 = True
-default persistent.ep2 = False
-default persistent.ep3 = False
-default persistent.ep4 = False
-default persistent.ep5 = False
-default persistent.ep6 = False
-
 # 게임 시작
 label start:
     show screen remove_rollback()
-
+    
     jump intro
     return
 
@@ -257,6 +246,14 @@ label intro:
     
     #### TEST ####
 
+    if not persistent.start:
+        jump script_opening
+    else:
+        if (persistent.jh_selected == True):
+            jump script_hjh
+        elif (persistent.kog_selected == True):
+            jump script_kog
+        else:
+            jump script_opening
 
-    jump script_opening
     return
