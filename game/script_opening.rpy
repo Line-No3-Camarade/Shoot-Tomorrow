@@ -67,8 +67,6 @@ label script_opening:
     "한 캐릭터 이야기의 끝을 확인하기 전까지 다른 캐릭터의 삶은 확인할 수 없습니다."
 
     $ persistent.start = True
-    call saving
-    #### 저장 막아 두기 ####
 
     menu:
         "김옥균":
