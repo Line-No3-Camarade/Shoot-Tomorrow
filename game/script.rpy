@@ -8,6 +8,7 @@ image white = "bg image/bg_white.png"
 image deck = "bg image/bg_deck.jpg"
 image hallway = "bg image/bg_hallway.jpg"
 image harbor = "bg image/보정/bg_harbor.png"
+image hjh_house = "bg image/bg_hjh_house.png"
 image hotel = "bg image/bg_hotel.jpg"
 image kog_house = "bg image/bg_kog_house.png"
 image library = "bg image/bg_library.jpg"
@@ -253,7 +254,7 @@ label intro:
     # hide text with fade
 
     #### TEST ####
-    jump script_kog
+    
     #### TEST ####
 
 

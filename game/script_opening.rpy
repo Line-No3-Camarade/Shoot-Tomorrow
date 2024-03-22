@@ -46,6 +46,7 @@ label script_opening:
 
     menu:
         "김옥균":
+            play sound "audio/Handling_Trimmed.mp3"
             hide jh
             show kog innerRightColor at center
             "김옥균을 선택하셨습니다."
@@ -53,10 +54,11 @@ label script_opening:
             $ jh_selected = 0
             $ persistent.kog_selected = True
             $ persistent.jh_selected = False
-            "계속하시겠습니까?"
+            play sound "audio/Gunfire_Trimmed.mp3"
             jump script_kog
         
         "한정훈":
+            play sound "audio/Handling_Trimmed.mp3"
             hide kog
             show jh innerLeftColor at center
             "한정훈을 선택하셨습니다."
@@ -64,7 +66,7 @@ label script_opening:
             $ kog_selected = 0
             $ persistent.jh_selected = True
             $ persistent.kog_selected = False
-            "계속하시겠습니까?"
+            play sound "audio/Gunfire_Trimmed.mp3"
             jump script_hjh
     
     return
