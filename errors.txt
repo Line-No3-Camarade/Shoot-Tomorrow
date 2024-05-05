@@ -2,13 +2,11 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 256: expected ':' not found.
-    else if (persistent.jh_selected):
-         ^
+The label intro is defined twice, at File "game/script.rpy", line 241:
+label intro:
+and File "game/script_opening.rpy", line 20:
+label intro:
 
-File "game/script.rpy", line 259: expected statement.
-    else if (persistent.kog_selected):
-         ^
 
 Ren'Py Version: Ren'Py 7.4.11.2266
-Fri Mar 22 17:04:49 2024
+Sun May  5 17:36:41 2024

@@ -223,31 +223,8 @@ screen remove_rollback():
 label start:
     show screen remove_rollback()
     
-    jump intro
-    return
-
-# Intro
-label intro:
-    $ renpy.pause(2.0, hard=True)
-    
-    # Intro
-    # $ renpy.pause(1.0, hard=True)
-    # show text "‘Original: Musical Gone Tomorrow’" with fade
-    # $ renpy.pause(1.0, hard=True)
-    # show text "‘제작 - 삼호선 까마하드’" with fade
-    # $ renpy.pause(1.0, hard=True)
-    # show text "‘SHOOT TOMORROW’" with fade
-    # $ renpy.pause(1.0, hard=True)
-    # show text "‘끝은 새로운 시작이니, 누군가는 그 길을 가야 한다’" with fade
-    # $ renpy.pause(1.0, hard=True)
-    # hide text with fade
-
-    #### TEST ####
-    
-    #### TEST ####
-
     if not persistent.start:
-        jump script_opening
+        jump intro
     else:
         if (persistent.jh_selected == True):
             jump script_hjh
@@ -256,4 +233,24 @@ label intro:
         else:
             jump script_opening
 
+    return
+
+
+label intro:
+    $ renpy.pause(2.0, hard=True)
+    
+    # Intro
+    $ renpy.pause(1.0, hard=True)
+    show text "‘Original: Musical Gone Tomorrow’" with fade
+    $ renpy.pause(1.0, hard=True)
+    show text "‘제작 - 삼호선 까마하드’" with fade
+    $ renpy.pause(1.0, hard=True)
+    show text "‘SHOOT TOMORROW’" with fade
+    $ renpy.pause(1.0, hard=True)
+    show text "‘끝은 새로운 시작이니, 누군가는 그 길을 가야 한다’" with fade
+    $ renpy.pause(1.0, hard=True)
+    hide text with fade
+
+    jump script_opening
+    
     return

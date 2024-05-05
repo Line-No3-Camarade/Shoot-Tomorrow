@@ -4,6 +4,7 @@ default persistent.kog_selected = False
 
 default in_opening = False
 
+
 label saving(savable = True):
     if savable:
         python:
@@ -16,6 +17,7 @@ label saving(savable = True):
             _game_menu_scree = "preferences"
             in_opening = True
     return
+
 
 label script_opening:
     default persistent.start = False
