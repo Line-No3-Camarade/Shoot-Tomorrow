@@ -1,2 +1,9 @@
 .vscode/
+
+log.txt
+
 game/saves/
+game/saves/*
+*.save
+
+game/saves/persistent

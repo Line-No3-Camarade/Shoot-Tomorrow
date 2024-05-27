@@ -222,6 +222,8 @@ screen remove_rollback():
 # 게임 시작
 label start:
     show screen remove_rollback()
+
+    # jump script_test
     
     if not persistent.start:
         jump intro
