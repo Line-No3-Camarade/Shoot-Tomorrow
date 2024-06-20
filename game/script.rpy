@@ -1,7 +1,15 @@
-# 게임 스크립트
+#################################################################################################################
+### 게임 스크립트 설정 ####
+#################################################################################################################
 default preferences.text_cps = 30
 
-# 이미지 정의
+
+
+
+
+#################################################################################################################
+#### 이미지 정의 ####
+#################################################################################################################
 image black = "bg image/bg_black.png"
 image white = "bg image/bg_white.png"
 
@@ -21,7 +29,12 @@ image street = "bg image/보정/bg_street.png"
 image tatami = "bg image/bg_tatami.jpg"
 
 
-#메인 캐릭터
+
+
+
+#################################################################################################################
+#### 캐릭터 정의 ####
+#################################################################################################################
 define narrator = Character(None, what_color="#e6e6e6")
 
 define jh = Character('정훈', color="#a0a0a0", image="jh")
@@ -39,159 +52,812 @@ define hjw = Character('홍종우', color="#ff3434")
 define hjw_q = Character('홍종우?', color="#a0a0a0", image="hjw_q")
 
 
-# 캐릭터 이미지 정의
-layeredimage jh :
-    attribute inner
-    attribute outer default
-
-layeredimage kog :
-    attribute inner
-    attribute outer default
 
 
-image jh = im.FactorScale("Character Standing/범정훈2.png", 0.75)
-image kog = im.FactorScale("Character Standing/웅옥2.png", 0.75)
 
-
-# 정훈
-image jh inner = ConditionSwitch(
-    "_last_say_who == 'jh'", im.FactorScale("Character Standing/범정훈1.png", 0.78),
-    "not _last_say_who == 'jh'", im.Grayscale(im.FactorScale("Character Standing/범정훈1.png", 0.75))
-)
-image jh innerLeft = ConditionSwitch(
-    "_last_say_who == 'jh'", im.FactorScale("Character Standing/범정훈1.png", 0.78),
-    "not _last_say_who == 'jh'", im.Grayscale(im.FactorScale("Character Standing/범정훈1.png", 0.75))
-)
-image jh innerRight = ConditionSwitch(
-    "_last_say_who == 'jh'", im.FactorScale(im.Flip("Character Standing/범정훈1.png", horizontal=True), 0.78),
-    "not _last_say_who == 'jh'", im.Grayscale(im.FactorScale(im.Flip("Character Standing/범정훈1.png", horizontal=True), 0.75))
-)
-
-image jh outer = ConditionSwitch(
-    "_last_say_who == 'jh'", im.FactorScale("Character Standing/범정훈2.png", 0.78),
-    "not _last_say_who == 'jh'", im.Grayscale(im.FactorScale("Character Standing/범정훈2.png", 0.75))
-)
-image jh outerLeft = ConditionSwitch(
-    "_last_say_who == 'jh'", im.FactorScale("Character Standing/범정훈2.png", 0.78),
-    "not _last_say_who == 'jh'", im.Grayscale(im.FactorScale("Character Standing/범정훈2.png", 0.75))
-)
-image jh outerRight = ConditionSwitch(
-    "_last_say_who == 'jh'", im.FactorScale(im.Flip("Character Standing/범정훈2.png", horizontal=True), 0.78),
-    "not _last_say_who == 'jh'", im.Grayscale(im.FactorScale(im.Flip("Character Standing/범정훈2.png", horizontal=True), 0.75))
-)
-
-image jh innerColor = im.FactorScale("Character Standing/범정훈1.png", 0.75)
-image jh innerGray = im.Grayscale(im.FactorScale("Character Standing/범정훈1.png", 0.75))
-
-image jh innerLeftColor = im.FactorScale("Character Standing/범정훈1.png", 0.75)
-image jh innerLeftGray = im.Grayscale(im.FactorScale("Character Standing/범정훈1.png", 0.75))
-
-image jh innerRightColor = im.FactorScale(im.Flip("Character Standing/범정훈1.png", horizontal=True), 0.75)
-image jh innerRightGray = im.Grayscale(im.FactorScale(im.Flip("Character Standing/범정훈1.png", horizontal=True), 0.75))
-
-image jh outerColor = im.FactorScale("Character Standing/범정훈2.png", 0.75)
-image jh outerGray = im.Grayscale(im.FactorScale("Character Standing/범정훈2.png", 0.75))
-
-image jh outerLeftColor = im.FactorScale("Character Standing/범정훈2.png", 0.75)
-image jh outerLeftGray = im.Grayscale(im.FactorScale("Character Standing/범정훈2.png", 0.75))
-
-image jh outerRightColor = im.FactorScale(im.Flip("Character Standing/범정훈2.png", horizontal=True), 0.75)
-image jh outerRightGray = im.Grayscale(im.FactorScale(im.Flip("Character Standing/범정훈2.png", horizontal=True), 0.75))
-
-
-# 홍종우?
-image hjw_q inner = ConditionSwitch(
-    "_last_say_who == 'hjw_q'", im.FactorScale("Character Standing/범정훈1.png", 0.78),
-    "not _last_say_who == 'hjw_q'", im.Grayscale(im.FactorScale("Character Standing/범정훈1.png", 0.75))
-)
-image hjw_q innerLeft = ConditionSwitch(
-    "_last_say_who == 'hjw_q'", im.FactorScale("Character Standing/범정훈1.png", 0.78),
-    "not _last_say_who == 'hjw_q'", im.Grayscale(im.FactorScale("Character Standing/범정훈1.png", 0.75))
-)
-image hjw_q innerRight = ConditionSwitch(
-    "_last_say_who == 'hjw_q'", im.FactorScale(im.Flip("Character Standing/범정훈1.png", horizontal=True), 0.78),
-    "not _last_say_who == 'hjw_q'", im.Grayscale(im.FactorScale(im.Flip("Character Standing/범정훈1.png", horizontal=True), 0.75))
-)
-
-image hjw_q outer = ConditionSwitch(
-    "_last_say_who == 'hjw_q'", im.FactorScale("Character Standing/범정훈2.png", 0.78),
-    "not _last_say_who == 'hjw_q'", im.Grayscale(im.FactorScale("Character Standing/범정훈2.png", 0.75))
-)
-image hjw_q outerLeft = ConditionSwitch(
-    "_last_say_who == 'hjw_q'", im.FactorScale("Character Standing/범정훈2.png", 0.78),
-    "not _last_say_who == 'hjw_q'", im.Grayscale(im.FactorScale("Character Standing/범정훈2.png", 0.75))
-)
-image hjw_q outerRight = ConditionSwitch(
-    "_last_say_who == 'hjw_q'", im.FactorScale(im.Flip("Character Standing/범정훈2.png", horizontal=True), 0.78),
-    "not _last_say_who == 'hjw_q'", im.Grayscale(im.FactorScale(im.Flip("Character Standing/범정훈2.png", horizontal=True), 0.75))
-)
-
-image jh innerColor = im.FactorScale("Character Standing/범정훈1.png", 0.75)
-image jh innerGray = im.Grayscale(im.FactorScale("Character Standing/범정훈1.png", 0.75))
-
-image jh innerLeftColor = im.FactorScale("Character Standing/범정훈1.png", 0.75)
-image jh innerLeftGray = im.Grayscale(im.FactorScale("Character Standing/범정훈1.png", 0.75))
-
-image jh innerRightColor = im.FactorScale(im.Flip("Character Standing/범정훈1.png", horizontal=True), 0.75)
-image jh innerRightGray = im.Grayscale(im.FactorScale(im.Flip("Character Standing/범정훈1.png", horizontal=True), 0.75))
-
-image jh outerColor = im.FactorScale("Character Standing/범정훈2.png", 0.75)
-image jh outerGray = im.Grayscale(im.FactorScale("Character Standing/범정훈2.png", 0.75))
-
-image jh outerLeftColor = im.FactorScale("Character Standing/범정훈2.png", 0.75)
-image jh outerLeftGray = im.Grayscale(im.FactorScale("Character Standing/범정훈2.png", 0.75))
-
-image jh outerRightColor = im.FactorScale(im.Flip("Character Standing/범정훈2.png", horizontal=True), 0.75)
-image jh outerRightGray = im.Grayscale(im.FactorScale(im.Flip("Character Standing/범정훈2.png", horizontal=True), 0.75))
-
-
-# 옥균
-image kog inner = ConditionSwitch(
-    "_last_say_who == 'kog'", im.FactorScale("Character Standing/웅옥1.png", 0.78),
-    "not _last_say_who == 'kog'", im.Grayscale(im.FactorScale("Character Standing/웅옥1.png", 0.75))
-)
-image kog innerLeft = ConditionSwitch(
-    "_last_say_who == 'kog'", im.FactorScale("Character Standing/웅옥1.png", 0.78),
-    "not _last_say_who == 'kog'", im.Grayscale(im.FactorScale("Character Standing/웅옥1.png", 0.75))
-)
-image kog innerRight = ConditionSwitch(
-    "_last_say_who == 'kog'", im.FactorScale(im.Flip("Character Standing/웅옥1.png", horizontal=True), 0.78),
-    "not _last_say_who == 'kog'", im.Grayscale(im.FactorScale(im.Flip("Character Standing/웅옥1.png", horizontal=True), 0.75))
-)
-
-image kog outer = ConditionSwitch(
-    "_last_say_who == 'kog'", im.FactorScale("Character Standing/웅옥2.png", 0.78),
-    "not _last_say_who == 'kog'", im.Grayscale(im.FactorScale("Character Standing/웅옥2.png", 0.75))
-)
-image kog outerLeft = ConditionSwitch(
-    "_last_say_who == 'kog'", im.FactorScale("Character Standing/웅옥2.png", 0.78),
-    "not _last_say_who == 'kog'", im.Grayscale(im.FactorScale("Character Standing/웅옥2.png", 0.75))
-)
-image kog outerRight = ConditionSwitch(
-    "_last_say_who == 'kog'", im.FactorScale(im.Flip("Character Standing/웅옥2.png", horizontal=True), 0.78),
-    "not _last_say_who == 'kog'", im.Grayscale(im.FactorScale(im.Flip("Character Standing/웅옥2.png", horizontal=True), 0.75))
+#################################################################################################################
+#### 캐릭터 이미지 정의 ####
+#################################################################################################################
+##################
+#### 정훈 ####
+##################
+## base
+image jh = ConditionSwitch(
+    "_last_say_who == 'jh'", im.FactorScale("Character Standing/mini-standing-jacket1-default1.png", 0.78),
+    "not _last_say_who == 'jh'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-jacket1-default1.png", 0.75))
 )
 
 
-image kog innerColor = im.FactorScale("Character Standing/웅옥1.png", 0.75)
-image kog innerGray = im.Grayscale(im.FactorScale("Character Standing/웅옥1.png", 0.75))
 
-image kog innerLeftColor = im.FactorScale("Character Standing/웅옥1.png", 0.75)
-image kog innerLeftGray = im.Grayscale(im.FactorScale("Character Standing/웅옥1.png", 0.75))
-
-image kog innerRightColor = im.FactorScale(im.Flip("Character Standing/웅옥1.png", horizontal=True), 0.75)
-image kog innerRightGray = im.Grayscale(im.FactorScale(im.Flip("Character Standing/웅옥1.png", horizontal=True), 0.75))
-
-image kog outerColor = im.FactorScale("Character Standing/웅옥2.png", 0.75)
-image kog outerGray = im.Grayscale(im.FactorScale("Character Standing/웅옥2.png", 0.75))
-
-image kog outerLeftColor = im.FactorScale("Character Standing/웅옥2.png", 0.75)
-image kog outerLeftGray = im.Grayscale(im.FactorScale("Character Standing/웅옥2.png", 0.75))
-
-image kog outerRightcolor = im.FactorScale(im.Flip("Character Standing/웅옥2.png", horizontal=True), 0.75)
-image kog outerRightGray = im.Grayscale(im.FactorScale(im.Flip("Character Standing/웅옥2.png", horizontal=True), 0.75))
+### jacket1
+## default1 (hard)
+image jh jacket_hard = ConditionSwitch(
+    "_last_say_who == 'jh'", im.FactorScale("Character Standing/mini-standing-jacket1-default1.png", 0.78),
+    "not _last_say_who == 'jh'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-jacket1-default1.png", 0.75))
+)
+image jh jacket_hard_left = ConditionSwitch(
+    "_last_say_who == 'jh'", im.FactorScale("Character Standing/mini-standing-jacket1-default1.png", 0.78),
+    "not _last_say_who == 'jh'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-jacket1-default1.png", 0.75))
+)
+image jh jacket_hard_right = ConditionSwitch(
+    "_last_say_who == 'jh'", im.FactorScale(im.Flip("Character Standing/mini-standing-jacket1-default1.png", horizontal=True), 0.78),
+    "not _last_say_who == 'jh'", im.Grayscale(im.FactorScale(im.Flip("Character Standing/mini-standing-jacket1-default1.png", horizontal=True), 0.75))
+)
 
 
+## default2 (soft)
+image jh jacket_soft = ConditionSwitch(
+    "_last_say_who == 'jh'", im.FactorScale("Character Standing/mini-standing-jacket1-default2.png", 0.78),
+    "not _last_say_who == 'jh'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-jacket1-default2.png", 0.75))
+)
+image jh jacket_soft_left = ConditionSwitch(
+    "_last_say_who == 'jh'", im.FactorScale("Character Standing/mini-standing-jacket1-default2.png", 0.78),
+    "not _last_say_who == 'jh'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-jacket1-default2.png", 0.75))
+)
+image jh jacket_soft_right = ConditionSwitch(
+    "_last_say_who == 'jh'", im.FactorScale(im.Flip("Character Standing/mini-standing-jacket1-default2.png", horizontal=True), 0.78),
+    "not _last_say_who == 'jh'", im.Grayscale(im.FactorScale(im.Flip("Character Standing/mini-standing-jacket1-default2.png", horizontal=True), 0.75))
+)
+
+
+## smile
+image jh jacket_smile = ConditionSwitch(
+    "_last_say_who == 'jh'", im.FactorScale("Character Standing/mini-standing-jacket1-smile.png", 0.78),
+    "not _last_say_who == 'jh'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-jacket1-smile.png", 0.75))
+)
+image jh jacket_smile_left = ConditionSwitch(
+    "_last_say_who == 'jh'", im.FactorScale("Character Standing/mini-standing-jacket1-smile.png", 0.78),
+    "not _last_say_who == 'jh'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-jacket1-smile.png", 0.75))
+)
+image jh jacket_smile_right = ConditionSwitch(
+    "_last_say_who == 'jh'", im.FactorScale(im.Flip("Character Standing/mini-standing-jacket1-smile.png", horizontal=True), 0.78),
+    "not _last_say_who == 'jh'", im.Grayscale(im.FactorScale(im.Flip("Character Standing/mini-standing-jacket1-smile.png", horizontal=True), 0.75))
+)
+
+
+
+### shirt (longshirt)
+## default (hard)
+image jh shirt = ConditionSwitch(
+    "_last_say_who == 'jh'", im.FactorScale("Character Standing/mini-standing-shirt1-default1.png", 0.78),
+    "not _last_say_who == 'jh'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-shirt1-default1.png", 0.75))
+)
+image jh shirt_left = ConditionSwitch(
+    "_last_say_who == 'jh'", im.FactorScale("Character Standing/mini-standing-shirt1-default1.png", 0.78),
+    "not _last_say_who == 'jh'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-shirt1-default1.png", 0.75))
+)
+image jh shirt_right = ConditionSwitch(
+    "_last_say_who == 'jh'", im.FactorScale(im.Flip("Character Standing/mini-standing-shirt1-default1.png", horizontal=True), 0.78),
+    "not _last_say_who == 'jh'", im.Grayscale(im.FactorScale(im.Flip("Character Standing/mini-standing-shirt1-default1.png", horizontal=True), 0.75))
+)
+
+
+## default1 (hard)
+image jh shirt_hard = ConditionSwitch(
+    "_last_say_who == 'jh'", im.FactorScale("Character Standing/mini-standing-shirt1-default1.png", 0.78),
+    "not _last_say_who == 'jh'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-shirt1-default1.png", 0.75))
+)
+image jh shirt_hard_left = ConditionSwitch(
+    "_last_say_who == 'jh'", im.FactorScale("Character Standing/mini-standing-shirt1-default1.png", 0.78),
+    "not _last_say_who == 'jh'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-shirt1-default1.png", 0.75))
+)
+image jh shirt_hard_right = ConditionSwitch(
+    "_last_say_who == 'jh'", im.FactorScale(im.Flip("Character Standing/mini-standing-shirt1-default1.png", horizontal=True), 0.78),
+    "not _last_say_who == 'jh'", im.Grayscale(im.FactorScale(im.Flip("Character Standing/mini-standing-shirt1-default1.png", horizontal=True), 0.75))
+)
+
+
+## default2 (soft)
+image jh shirt_soft = ConditionSwitch(
+    "_last_say_who == 'jh'", im.FactorScale("Character Standing/mini-standing-shirt1-default2.png", 0.78),
+    "not _last_say_who == 'jh'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-shirt1-default2.png", 0.75))
+)
+image jh shirt_soft_left = ConditionSwitch(
+    "_last_say_who == 'jh'", im.FactorScale("Character Standing/mini-standing-shirt1-default2.png", 0.78),
+    "not _last_say_who == 'jh'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-shirt1-default2.png", 0.75))
+)
+image jh shirt_soft_right = ConditionSwitch(
+    "_last_say_who == 'jh'", im.FactorScale(im.Flip("Character Standing/mini-standing-shirt1-default2.png", horizontal=True), 0.78),
+    "not _last_say_who == 'jh'", im.Grayscale(im.FactorScale(im.Flip("Character Standing/mini-standing-shirt1-default2.png", horizontal=True), 0.75))
+)
+
+
+## smile
+image jh shirt_smile = ConditionSwitch(
+    "_last_say_who == 'jh'", im.FactorScale("Character Standing/mini-standing-shirt1-smile.png", 0.78),
+    "not _last_say_who == 'jh'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-shirt1-smile.png", 0.75))
+)
+image jh shirt_smile_left = ConditionSwitch(
+    "_last_say_who == 'jh'", im.FactorScale("Character Standing/mini-standing-shirt1-smile.png", 0.78),
+    "not _last_say_who == 'jh'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-shirt1-smile.png", 0.75))
+)
+image jh shirt_smile_right = ConditionSwitch(
+    "_last_say_who == 'jh'", im.FactorScale(im.Flip("Character Standing/mini-standing-shirt1-smile.png", horizontal=True), 0.78),
+    "not _last_say_who == 'jh'", im.Grayscale(im.FactorScale(im.Flip("Character Standing/mini-standing-shirt1-smile.png", horizontal=True), 0.75))
+)
+
+
+
+### shirt1 (longshirt)
+## default (hard)
+image jh shirt_long = ConditionSwitch(
+    "_last_say_who == 'jh'", im.FactorScale("Character Standing/mini-standing-shirt1-default1.png", 0.78),
+    "not _last_say_who == 'jh'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-shirt1-default1.png", 0.75))
+)
+image jh shirt_long_left = ConditionSwitch(
+    "_last_say_who == 'jh'", im.FactorScale("Character Standing/mini-standing-shirt1-default1.png", 0.78),
+    "not _last_say_who == 'jh'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-shirt1-default1.png", 0.75))
+)
+image jh shirt_long_right = ConditionSwitch(
+    "_last_say_who == 'jh'", im.FactorScale(im.Flip("Character Standing/mini-standing-shirt1-default1.png", horizontal=True), 0.78),
+    "not _last_say_who == 'jh'", im.Grayscale(im.FactorScale(im.Flip("Character Standing/mini-standing-shirt1-default1.png", horizontal=True), 0.75))
+)
+
+
+## default1 (hard)
+image jh shirt_long_hard = ConditionSwitch(
+    "_last_say_who == 'jh'", im.FactorScale("Character Standing/mini-standing-shirt1-default1.png", 0.78),
+    "not _last_say_who == 'jh'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-shirt1-default1.png", 0.75))
+)
+image jh shirt_long_hard_left = ConditionSwitch(
+    "_last_say_who == 'jh'", im.FactorScale("Character Standing/mini-standing-shirt1-default1.png", 0.78),
+    "not _last_say_who == 'jh'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-shirt1-default1.png", 0.75))
+)
+image jh shirt_long_hard_right = ConditionSwitch(
+    "_last_say_who == 'jh'", im.FactorScale(im.Flip("Character Standing/mini-standing-shirt1-default1.png", horizontal=True), 0.78),
+    "not _last_say_who == 'jh'", im.Grayscale(im.FactorScale(im.Flip("Character Standing/mini-standing-shirt1-default1.png", horizontal=True), 0.75))
+)
+
+
+## default2 (soft)
+image jh shirt_long_soft = ConditionSwitch(
+    "_last_say_who == 'jh'", im.FactorScale("Character Standing/mini-standing-shirt1-default2.png", 0.78),
+    "not _last_say_who == 'jh'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-shirt1-default2.png", 0.75))
+)
+image jh shirt_long_soft_left = ConditionSwitch(
+    "_last_say_who == 'jh'", im.FactorScale("Character Standing/mini-standing-shirt1-default2.png", 0.78),
+    "not _last_say_who == 'jh'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-shirt1-default2.png", 0.75))
+)
+image jh shirt_long_soft_right = ConditionSwitch(
+    "_last_say_who == 'jh'", im.FactorScale(im.Flip("Character Standing/mini-standing-shirt1-default2.png", horizontal=True), 0.78),
+    "not _last_say_who == 'jh'", im.Grayscale(im.FactorScale(im.Flip("Character Standing/mini-standing-shirt1-default2.png", horizontal=True), 0.75))
+)
+
+
+## smile
+image jh shirt_long_smile = ConditionSwitch(
+    "_last_say_who == 'jh'", im.FactorScale("Character Standing/mini-standing-shirt1-smile.png", 0.78),
+    "not _last_say_who == 'jh'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-shirt1-smile.png", 0.75))
+)
+image jh shirt_long_smile_left = ConditionSwitch(
+    "_last_say_who == 'jh'", im.FactorScale("Character Standing/mini-standing-shirt1-smile.png", 0.78),
+    "not _last_say_who == 'jh'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-shirt1-smile.png", 0.75))
+)
+image jh shirt_long_smile_right = ConditionSwitch(
+    "_last_say_who == 'jh'", im.FactorScale(im.Flip("Character Standing/mini-standing-shirt1-smile.png", horizontal=True), 0.78),
+    "not _last_say_who == 'jh'", im.Grayscale(im.FactorScale(im.Flip("Character Standing/mini-standing-shirt1-smile.png", horizontal=True), 0.75))
+)
+
+
+
+### shirt2 (shirt)
+## default (hard)
+image jh shirt_hurt = ConditionSwitch(
+    "_last_say_who == 'jh'", im.FactorScale("Character Standing/mini-standing-shirt2-default1.png", 0.78),
+    "not _last_say_who == 'jh'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-shirt2-default1.png", 0.75))
+)
+image jh shirt_hurt_left = ConditionSwitch(
+    "_last_say_who == 'jh'", im.FactorScale("Character Standing/mini-standing-shirt2-default1.png", 0.78),
+    "not _last_say_who == 'jh'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-shirt2-default1.png", 0.75))
+)
+image jh shirt_hurt_right = ConditionSwitch(
+    "_last_say_who == 'jh'", im.FactorScale(im.Flip("Character Standing/mini-standing-shirt2-default1.png", horizontal=True), 0.78),
+    "not _last_say_who == 'jh'", im.Grayscale(im.FactorScale(im.Flip("Character Standing/mini-standing-shirt2-default1.png", horizontal=True), 0.75))
+)
+
+
+## default1 (hard)
+image jh shirt_hurt_hard = ConditionSwitch(
+    "_last_say_who == 'jh'", im.FactorScale("Character Standing/mini-standing-shirt2-default1.png", 0.78),
+    "not _last_say_who == 'jh'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-shirt2-default1.png", 0.75))
+)
+image jh shirt_hurt_hard_left = ConditionSwitch(
+    "_last_say_who == 'jh'", im.FactorScale("Character Standing/mini-standing-shirt2-default1.png", 0.78),
+    "not _last_say_who == 'jh'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-shirt2-default1.png", 0.75))
+)
+image jh shirt_hurt_hard_right = ConditionSwitch(
+    "_last_say_who == 'jh'", im.FactorScale(im.Flip("Character Standing/mini-standing-shirt2-default1.png", horizontal=True), 0.78),
+    "not _last_say_who == 'jh'", im.Grayscale(im.FactorScale(im.Flip("Character Standing/mini-standing-shirt2-default1.png", horizontal=True), 0.75))
+)
+
+
+## default2 (soft)
+image jh shirt_hurt_soft = ConditionSwitch(
+    "_last_say_who == 'jh'", im.FactorScale("Character Standing/mini-standing-shirt2-default2.png", 0.78),
+    "not _last_say_who == 'jh'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-shirt2-default2.png", 0.75))
+)
+image jh shirt_hurt_soft_left = ConditionSwitch(
+    "_last_say_who == 'jh'", im.FactorScale("Character Standing/mini-standing-shirt2-default2.png", 0.78),
+    "not _last_say_who == 'jh'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-shirt2-default2.png", 0.75))
+)
+image jh shirt_hurt_soft_right = ConditionSwitch(
+    "_last_say_who == 'jh'", im.FactorScale(im.Flip("Character Standing/mini-standing-shirt2-default2.png", horizontal=True), 0.78),
+    "not _last_say_who == 'jh'", im.Grayscale(im.FactorScale(im.Flip("Character Standing/mini-standing-shirt2-default2.png", horizontal=True), 0.75))
+)
+
+
+## smile
+image jh shirt_hurt_smile = ConditionSwitch(
+    "_last_say_who == 'jh'", im.FactorScale("Character Standing/mini-standing-shirt2-smile.png", 0.78),
+    "not _last_say_who == 'jh'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-shirt2-smile.png", 0.75))
+)
+image jh shirt_hurt_smile_left = ConditionSwitch(
+    "_last_say_who == 'jh'", im.FactorScale("Character Standing/mini-standing-shirt2-smile.png", 0.78),
+    "not _last_say_who == 'jh'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-shirt2-smile.png", 0.75))
+)
+image jh shirt_hurt_smile_right = ConditionSwitch(
+    "_last_say_who == 'jh'", im.FactorScale(im.Flip("Character Standing/mini-standing-shirt2-smile.png", horizontal=True), 0.78),
+    "not _last_say_who == 'jh'", im.Grayscale(im.FactorScale(im.Flip("Character Standing/mini-standing-shirt2-smile.png", horizontal=True), 0.75))
+)
+
+
+
+### shirt3 (shortshirt)
+## default (hard)
+image jh shirt_short = ConditionSwitch(
+    "_last_say_who == 'jh'", im.FactorScale("Character Standing/mini-standing-shirt3-default1.png", 0.78),
+    "not _last_say_who == 'jh'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-shirt3-default1.png", 0.75))
+)
+image jh shirt_short_left = ConditionSwitch(
+    "_last_say_who == 'jh'", im.FactorScale("Character Standing/mini-standing-shirt3-default1.png", 0.78),
+    "not _last_say_who == 'jh'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-shirt3-default1.png", 0.75))
+)
+image jh shirt_short_right = ConditionSwitch(
+    "_last_say_who == 'jh'", im.FactorScale(im.Flip("Character Standing/mini-standing-shirt3-default1.png", horizontal=True), 0.78),
+    "not _last_say_who == 'jh'", im.Grayscale(im.FactorScale(im.Flip("Character Standing/mini-standing-shirt3-default1.png", horizontal=True), 0.75))
+)
+
+
+## default1 (hard)
+image jh shirt_short_hard = ConditionSwitch(
+    "_last_say_who == 'jh'", im.FactorScale("Character Standing/mini-standing-shirt3-default1.png", 0.78),
+    "not _last_say_who == 'jh'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-shirt3-default1.png", 0.75))
+)
+image jh shirt_short_hard_left = ConditionSwitch(
+    "_last_say_who == 'jh'", im.FactorScale("Character Standing/mini-standing-shirt3-default1.png", 0.78),
+    "not _last_say_who == 'jh'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-shirt3-default1.png", 0.75))
+)
+image jh shirt_short_hard_right = ConditionSwitch(
+    "_last_say_who == 'jh'", im.FactorScale(im.Flip("Character Standing/mini-standing-shirt3-default1.png", horizontal=True), 0.78),
+    "not _last_say_who == 'jh'", im.Grayscale(im.FactorScale(im.Flip("Character Standing/mini-standing-shirt3-default1.png", horizontal=True), 0.75))
+)
+
+
+## default2 (soft)
+image jh shirt_short_soft = ConditionSwitch(
+    "_last_say_who == 'jh'", im.FactorScale("Character Standing/mini-standing-shirt3-default2.png", 0.78),
+    "not _last_say_who == 'jh'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-shirt3-default2.png", 0.75))
+)
+image jh shirt_short_soft_left = ConditionSwitch(
+    "_last_say_who == 'jh'", im.FactorScale("Character Standing/mini-standing-shirt3-default2.png", 0.78),
+    "not _last_say_who == 'jh'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-shirt3-default2.png", 0.75))
+)
+image jh shirt_short_soft_right = ConditionSwitch(
+    "_last_say_who == 'jh'", im.FactorScale(im.Flip("Character Standing/mini-standing-shirt3-default2.png", horizontal=True), 0.78),
+    "not _last_say_who == 'jh'", im.Grayscale(im.FactorScale(im.Flip("Character Standing/mini-standing-shirt3-default2.png", horizontal=True), 0.75))
+)
+
+
+## smile
+image jh shirt_short_smile = ConditionSwitch(
+    "_last_say_who == 'jh'", im.FactorScale("Character Standing/mini-standing-shirt3-smile.png", 0.78),
+    "not _last_say_who == 'jh'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-shirt3-smile.png", 0.75))
+)
+image jh shirt_short_smile_left = ConditionSwitch(
+    "_last_say_who == 'jh'", im.FactorScale("Character Standing/mini-standing-shirt3-smile.png", 0.78),
+    "not _last_say_who == 'jh'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-shirt3-smile.png", 0.75))
+)
+image jh shirt_short_smile_right = ConditionSwitch(
+    "_last_say_who == 'jh'", im.FactorScale(im.Flip("Character Standing/mini-standing-shirt3-smile.png", horizontal=True), 0.78),
+    "not _last_say_who == 'jh'", im.Grayscale(im.FactorScale(im.Flip("Character Standing/mini-standing-shirt3-smile.png", horizontal=True), 0.75))
+)
+
+
+
+
+##################
+#### 홍종우 ####
+##################
+## base
+image hjw_q = ConditionSwitch(
+    "_last_say_who == 'hjw_q'", im.FactorScale("Character Standing/mini-standing-jacket1-default1.png", 0.78),
+    "not _last_say_who == 'hjw_q'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-jacket1-default1.png", 0.75))
+)
+
+
+
+### jacket1
+## default1 (hard)
+image hjw_q jacket_hard = ConditionSwitch(
+    "_last_say_who == 'hjw_q'", im.FactorScale("Character Standing/mini-standing-jacket1-default1.png", 0.78),
+    "not _last_say_who == 'hjw_q'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-jacket1-default1.png", 0.75))
+)
+image hjw_q jacket_hard_left = ConditionSwitch(
+    "_last_say_who == 'hjw_q'", im.FactorScale("Character Standing/mini-standing-jacket1-default1.png", 0.78),
+    "not _last_say_who == 'hjw_q'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-jacket1-default1.png", 0.75))
+)
+image hjw_q jacket_hard_right = ConditionSwitch(
+    "_last_say_who == 'hjw_q'", im.FactorScale(im.Flip("Character Standing/mini-standing-jacket1-default1.png", horizontal=True), 0.78),
+    "not _last_say_who == 'hjw_q'", im.Grayscale(im.FactorScale(im.Flip("Character Standing/mini-standing-jacket1-default1.png", horizontal=True), 0.75))
+)
+
+
+## default2 (soft)
+image hjw_q jacket_soft = ConditionSwitch(
+    "_last_say_who == 'hjw_q'", im.FactorScale("Character Standing/mini-standing-jacket1-default2.png", 0.78),
+    "not _last_say_who == 'hjw_q'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-jacket1-default2.png", 0.75))
+)
+image hjw_q jacket_soft_left = ConditionSwitch(
+    "_last_say_who == 'hjw_q'", im.FactorScale("Character Standing/mini-standing-jacket1-default2.png", 0.78),
+    "not _last_say_who == 'hjw_q'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-jacket1-default2.png", 0.75))
+)
+image hjw_q jacket_soft_right = ConditionSwitch(
+    "_last_say_who == 'hjw_q'", im.FactorScale(im.Flip("Character Standing/mini-standing-jacket1-default2.png", horizontal=True), 0.78),
+    "not _last_say_who == 'hjw_q'", im.Grayscale(im.FactorScale(im.Flip("Character Standing/mini-standing-jacket1-default2.png", horizontal=True), 0.75))
+)
+
+
+## smile
+image hjw_q jacket_smile = ConditionSwitch(
+    "_last_say_who == 'hjw_q'", im.FactorScale("Character Standing/mini-standing-jacket1-smile.png", 0.78),
+    "not _last_say_who == 'hjw_q'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-jacket1-smile.png", 0.75))
+)
+image hjw_q jacket_smile_left = ConditionSwitch(
+    "_last_say_who == 'hjw_q'", im.FactorScale("Character Standing/mini-standing-jacket1-smile.png", 0.78),
+    "not _last_say_who == 'hjw_q'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-jacket1-smile.png", 0.75))
+)
+image hjw_q jacket_smile_right = ConditionSwitch(
+    "_last_say_who == 'hjw_q'", im.FactorScale(im.Flip("Character Standing/mini-standing-jacket1-smile.png", horizontal=True), 0.78),
+    "not _last_say_who == 'hjw_q'", im.Grayscale(im.FactorScale(im.Flip("Character Standing/mini-standing-jacket1-smile.png", horizontal=True), 0.75))
+)
+
+
+
+### shirt (longshirt)
+## default (hard)
+image hjw_q shirt = ConditionSwitch(
+    "_last_say_who == 'hjw_q'", im.FactorScale("Character Standing/mini-standing-shirt1-default1.png", 0.78),
+    "not _last_say_who == 'hjw_q'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-shirt1-default1.png", 0.75))
+)
+image hjw_q shirt_left = ConditionSwitch(
+    "_last_say_who == 'hjw_q'", im.FactorScale("Character Standing/mini-standing-shirt1-default1.png", 0.78),
+    "not _last_say_who == 'hjw_q'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-shirt1-default1.png", 0.75))
+)
+image hjw_q shirt_right = ConditionSwitch(
+    "_last_say_who == 'hjw_q'", im.FactorScale(im.Flip("Character Standing/mini-standing-shirt1-default1.png", horizontal=True), 0.78),
+    "not _last_say_who == 'hjw_q'", im.Grayscale(im.FactorScale(im.Flip("Character Standing/mini-standing-shirt1-default1.png", horizontal=True), 0.75))
+)
+
+
+## default1 (hard)
+image hjw_q shirt_hard = ConditionSwitch(
+    "_last_say_who == 'hjw_q'", im.FactorScale("Character Standing/mini-standing-shirt1-default1.png", 0.78),
+    "not _last_say_who == 'hjw_q'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-shirt1-default1.png", 0.75))
+)
+image hjw_q shirt_hard_left = ConditionSwitch(
+    "_last_say_who == 'hjw_q'", im.FactorScale("Character Standing/mini-standing-shirt1-default1.png", 0.78),
+    "not _last_say_who == 'hjw_q'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-shirt1-default1.png", 0.75))
+)
+image hjw_q shirt_hard_right = ConditionSwitch(
+    "_last_say_who == 'hjw_q'", im.FactorScale(im.Flip("Character Standing/mini-standing-shirt1-default1.png", horizontal=True), 0.78),
+    "not _last_say_who == 'hjw_q'", im.Grayscale(im.FactorScale(im.Flip("Character Standing/mini-standing-shirt1-default1.png", horizontal=True), 0.75))
+)
+
+
+## default2 (soft)
+image hjw_q shirt_soft = ConditionSwitch(
+    "_last_say_who == 'hjw_q'", im.FactorScale("Character Standing/mini-standing-shirt1-default2.png", 0.78),
+    "not _last_say_who == 'hjw_q'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-shirt1-default2.png", 0.75))
+)
+image hjw_q shirt_soft_left = ConditionSwitch(
+    "_last_say_who == 'hjw_q'", im.FactorScale("Character Standing/mini-standing-shirt1-default2.png", 0.78),
+    "not _last_say_who == 'hjw_q'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-shirt1-default2.png", 0.75))
+)
+image hjw_q shirt_soft_right = ConditionSwitch(
+    "_last_say_who == 'hjw_q'", im.FactorScale(im.Flip("Character Standing/mini-standing-shirt1-default2.png", horizontal=True), 0.78),
+    "not _last_say_who == 'hjw_q'", im.Grayscale(im.FactorScale(im.Flip("Character Standing/mini-standing-shirt1-default2.png", horizontal=True), 0.75))
+)
+
+
+## smile
+image hjw_q shirt_smile = ConditionSwitch(
+    "_last_say_who == 'hjw_q'", im.FactorScale("Character Standing/mini-standing-shirt1-smile.png", 0.78),
+    "not _last_say_who == 'hjw_q'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-shirt1-smile.png", 0.75))
+)
+image hjw_q shirt_smile_left = ConditionSwitch(
+    "_last_say_who == 'hjw_q'", im.FactorScale("Character Standing/mini-standing-shirt1-smile.png", 0.78),
+    "not _last_say_who == 'hjw_q'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-shirt1-smile.png", 0.75))
+)
+image hjw_q shirt_smile_right = ConditionSwitch(
+    "_last_say_who == 'hjw_q'", im.FactorScale(im.Flip("Character Standing/mini-standing-shirt1-smile.png", horizontal=True), 0.78),
+    "not _last_say_who == 'hjw_q'", im.Grayscale(im.FactorScale(im.Flip("Character Standing/mini-standing-shirt1-smile.png", horizontal=True), 0.75))
+)
+
+
+
+### shirt1 (longshirt)
+## default (hard)
+image hjw_q shirt_long = ConditionSwitch(
+    "_last_say_who == 'hjw_q'", im.FactorScale("Character Standing/mini-standing-shirt1-default1.png", 0.78),
+    "not _last_say_who == 'hjw_q'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-shirt1-default1.png", 0.75))
+)
+image hjw_q shirt_long_left = ConditionSwitch(
+    "_last_say_who == 'hjw_q'", im.FactorScale("Character Standing/mini-standing-shirt1-default1.png", 0.78),
+    "not _last_say_who == 'hjw_q'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-shirt1-default1.png", 0.75))
+)
+image hjw_q shirt_long_right = ConditionSwitch(
+    "_last_say_who == 'hjw_q'", im.FactorScale(im.Flip("Character Standing/mini-standing-shirt1-default1.png", horizontal=True), 0.78),
+    "not _last_say_who == 'hjw_q'", im.Grayscale(im.FactorScale(im.Flip("Character Standing/mini-standing-shirt1-default1.png", horizontal=True), 0.75))
+)
+
+
+## default1 (hard)
+image hjw_q shirt_long_hard = ConditionSwitch(
+    "_last_say_who == 'hjw_q'", im.FactorScale("Character Standing/mini-standing-shirt1-default1.png", 0.78),
+    "not _last_say_who == 'hjw_q'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-shirt1-default1.png", 0.75))
+)
+image hjw_q shirt_long_hard_left = ConditionSwitch(
+    "_last_say_who == 'hjw_q'", im.FactorScale("Character Standing/mini-standing-shirt1-default1.png", 0.78),
+    "not _last_say_who == 'hjw_q'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-shirt1-default1.png", 0.75))
+)
+image hjw_q shirt_long_hard_right = ConditionSwitch(
+    "_last_say_who == 'hjw_q'", im.FactorScale(im.Flip("Character Standing/mini-standing-shirt1-default1.png", horizontal=True), 0.78),
+    "not _last_say_who == 'hjw_q'", im.Grayscale(im.FactorScale(im.Flip("Character Standing/mini-standing-shirt1-default1.png", horizontal=True), 0.75))
+)
+
+
+## default2 (soft)
+image hjw_q shirt_long_soft = ConditionSwitch(
+    "_last_say_who == 'hjw_q'", im.FactorScale("Character Standing/mini-standing-shirt1-default2.png", 0.78),
+    "not _last_say_who == 'hjw_q'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-shirt1-default2.png", 0.75))
+)
+image hjw_q shirt_long_soft_left = ConditionSwitch(
+    "_last_say_who == 'hjw_q'", im.FactorScale("Character Standing/mini-standing-shirt1-default2.png", 0.78),
+    "not _last_say_who == 'hjw_q'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-shirt1-default2.png", 0.75))
+)
+image hjw_q shirt_long_soft_right = ConditionSwitch(
+    "_last_say_who == 'hjw_q'", im.FactorScale(im.Flip("Character Standing/mini-standing-shirt1-default2.png", horizontal=True), 0.78),
+    "not _last_say_who == 'hjw_q'", im.Grayscale(im.FactorScale(im.Flip("Character Standing/mini-standing-shirt1-default2.png", horizontal=True), 0.75))
+)
+
+
+## smile
+image hjw_q shirt_long_smile = ConditionSwitch(
+    "_last_say_who == 'hjw_q'", im.FactorScale("Character Standing/mini-standing-shirt1-smile.png", 0.78),
+    "not _last_say_who == 'hjw_q'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-shirt1-smile.png", 0.75))
+)
+image hjw_q shirt_long_smile_left = ConditionSwitch(
+    "_last_say_who == 'hjw_q'", im.FactorScale("Character Standing/mini-standing-shirt1-smile.png", 0.78),
+    "not _last_say_who == 'hjw_q'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-shirt1-smile.png", 0.75))
+)
+image hjw_q shirt_long_smile_right = ConditionSwitch(
+    "_last_say_who == 'hjw_q'", im.FactorScale(im.Flip("Character Standing/mini-standing-shirt1-smile.png", horizontal=True), 0.78),
+    "not _last_say_who == 'hjw_q'", im.Grayscale(im.FactorScale(im.Flip("Character Standing/mini-standing-shirt1-smile.png", horizontal=True), 0.75))
+)
+
+
+
+### shirt2 (shirt)
+## default (hard)
+image hjw_q shirt_hurt = ConditionSwitch(
+    "_last_say_who == 'hjw_q'", im.FactorScale("Character Standing/mini-standing-shirt2-default1.png", 0.78),
+    "not _last_say_who == 'hjw_q'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-shirt2-default1.png", 0.75))
+)
+image hjw_q shirt_hurt_left = ConditionSwitch(
+    "_last_say_who == 'hjw_q'", im.FactorScale("Character Standing/mini-standing-shirt2-default1.png", 0.78),
+    "not _last_say_who == 'hjw_q'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-shirt2-default1.png", 0.75))
+)
+image hjw_q shirt_hurt_right = ConditionSwitch(
+    "_last_say_who == 'hjw_q'", im.FactorScale(im.Flip("Character Standing/mini-standing-shirt2-default1.png", horizontal=True), 0.78),
+    "not _last_say_who == 'hjw_q'", im.Grayscale(im.FactorScale(im.Flip("Character Standing/mini-standing-shirt2-default1.png", horizontal=True), 0.75))
+)
+
+
+## default1 (hard)
+image hjw_q shirt_hurt_hard = ConditionSwitch(
+    "_last_say_who == 'hjw_q'", im.FactorScale("Character Standing/mini-standing-shirt2-default1.png", 0.78),
+    "not _last_say_who == 'hjw_q'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-shirt2-default1.png", 0.75))
+)
+image hjw_q shirt_hurt_hard_left = ConditionSwitch(
+    "_last_say_who == 'hjw_q'", im.FactorScale("Character Standing/mini-standing-shirt2-default1.png", 0.78),
+    "not _last_say_who == 'hjw_q'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-shirt2-default1.png", 0.75))
+)
+image hjw_q shirt_hurt_hard_right = ConditionSwitch(
+    "_last_say_who == 'hjw_q'", im.FactorScale(im.Flip("Character Standing/mini-standing-shirt2-default1.png", horizontal=True), 0.78),
+    "not _last_say_who == 'hjw_q'", im.Grayscale(im.FactorScale(im.Flip("Character Standing/mini-standing-shirt2-default1.png", horizontal=True), 0.75))
+)
+
+
+## default2 (soft)
+image hjw_q shirt_hurt_soft = ConditionSwitch(
+    "_last_say_who == 'hjw_q'", im.FactorScale("Character Standing/mini-standing-shirt2-default2.png", 0.78),
+    "not _last_say_who == 'hjw_q'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-shirt2-default2.png", 0.75))
+)
+image hjw_q shirt_hurt_soft_left = ConditionSwitch(
+    "_last_say_who == 'hjw_q'", im.FactorScale("Character Standing/mini-standing-shirt2-default2.png", 0.78),
+    "not _last_say_who == 'hjw_q'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-shirt2-default2.png", 0.75))
+)
+image hjw_q shirt_hurt_soft_right = ConditionSwitch(
+    "_last_say_who == 'hjw_q'", im.FactorScale(im.Flip("Character Standing/mini-standing-shirt2-default2.png", horizontal=True), 0.78),
+    "not _last_say_who == 'hjw_q'", im.Grayscale(im.FactorScale(im.Flip("Character Standing/mini-standing-shirt2-default2.png", horizontal=True), 0.75))
+)
+
+
+## smile
+image hjw_q shirt_hurt_smile = ConditionSwitch(
+    "_last_say_who == 'hjw_q'", im.FactorScale("Character Standing/mini-standing-shirt2-smile.png", 0.78),
+    "not _last_say_who == 'hjw_q'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-shirt2-smile.png", 0.75))
+)
+image hjw_q shirt_hurt_smile_left = ConditionSwitch(
+    "_last_say_who == 'hjw_q'", im.FactorScale("Character Standing/mini-standing-shirt2-smile.png", 0.78),
+    "not _last_say_who == 'hjw_q'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-shirt2-smile.png", 0.75))
+)
+image hjw_q shirt_hurt_smile_right = ConditionSwitch(
+    "_last_say_who == 'hjw_q'", im.FactorScale(im.Flip("Character Standing/mini-standing-shirt2-smile.png", horizontal=True), 0.78),
+    "not _last_say_who == 'hjw_q'", im.Grayscale(im.FactorScale(im.Flip("Character Standing/mini-standing-shirt2-smile.png", horizontal=True), 0.75))
+)
+
+
+
+### shirt3 (shortshirt)
+## default (hard)
+image hjw_q shirt_short = ConditionSwitch(
+    "_last_say_who == 'hjw_q'", im.FactorScale("Character Standing/mini-standing-shirt3-default1.png", 0.78),
+    "not _last_say_who == 'hjw_q'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-shirt3-default1.png", 0.75))
+)
+image hjw_q shirt_short_left = ConditionSwitch(
+    "_last_say_who == 'hjw_q'", im.FactorScale("Character Standing/mini-standing-shirt3-default1.png", 0.78),
+    "not _last_say_who == 'hjw_q'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-shirt3-default1.png", 0.75))
+)
+image hjw_q shirt_short_right = ConditionSwitch(
+    "_last_say_who == 'hjw_q'", im.FactorScale(im.Flip("Character Standing/mini-standing-shirt3-default1.png", horizontal=True), 0.78),
+    "not _last_say_who == 'hjw_q'", im.Grayscale(im.FactorScale(im.Flip("Character Standing/mini-standing-shirt3-default1.png", horizontal=True), 0.75))
+)
+
+
+## default1 (hard)
+image hjw_q shirt_short_hard = ConditionSwitch(
+    "_last_say_who == 'hjw_q'", im.FactorScale("Character Standing/mini-standing-shirt3-default1.png", 0.78),
+    "not _last_say_who == 'hjw_q'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-shirt3-default1.png", 0.75))
+)
+image hjw_q shirt_short_hard_left = ConditionSwitch(
+    "_last_say_who == 'hjw_q'", im.FactorScale("Character Standing/mini-standing-shirt3-default1.png", 0.78),
+    "not _last_say_who == 'hjw_q'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-shirt3-default1.png", 0.75))
+)
+image hjw_q shirt_short_hard_right = ConditionSwitch(
+    "_last_say_who == 'hjw_q'", im.FactorScale(im.Flip("Character Standing/mini-standing-shirt3-default1.png", horizontal=True), 0.78),
+    "not _last_say_who == 'hjw_q'", im.Grayscale(im.FactorScale(im.Flip("Character Standing/mini-standing-shirt3-default1.png", horizontal=True), 0.75))
+)
+
+
+## default2 (soft)
+image hjw_q shirt_short_soft = ConditionSwitch(
+    "_last_say_who == 'hjw_q'", im.FactorScale("Character Standing/mini-standing-shirt3-default2.png", 0.78),
+    "not _last_say_who == 'hjw_q'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-shirt3-default2.png", 0.75))
+)
+image hjw_q shirt_short_soft_left = ConditionSwitch(
+    "_last_say_who == 'hjw_q'", im.FactorScale("Character Standing/mini-standing-shirt3-default2.png", 0.78),
+    "not _last_say_who == 'hjw_q'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-shirt3-default2.png", 0.75))
+)
+image hjw_q shirt_short_soft_right = ConditionSwitch(
+    "_last_say_who == 'hjw_q'", im.FactorScale(im.Flip("Character Standing/mini-standing-shirt3-default2.png", horizontal=True), 0.78),
+    "not _last_say_who == 'hjw_q'", im.Grayscale(im.FactorScale(im.Flip("Character Standing/mini-standing-shirt3-default2.png", horizontal=True), 0.75))
+)
+
+
+## smile
+image hjw_q shirt_short_smile = ConditionSwitch(
+    "_last_say_who == 'hjw_q'", im.FactorScale("Character Standing/mini-standing-shirt3-smile.png", 0.78),
+    "not _last_say_who == 'hjw_q'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-shirt3-smile.png", 0.75))
+)
+image hjw_q shirt_short_smile_left = ConditionSwitch(
+    "_last_say_who == 'hjw_q'", im.FactorScale("Character Standing/mini-standing-shirt3-smile.png", 0.78),
+    "not _last_say_who == 'hjw_q'", im.Grayscale(im.FactorScale("Character Standing/mini-standing-shirt3-smile.png", 0.75))
+)
+image hjw_q shirt_short_smile_right = ConditionSwitch(
+    "_last_say_who == 'hjw_q'", im.FactorScale(im.Flip("Character Standing/mini-standing-shirt3-smile.png", horizontal=True), 0.78),
+    "not _last_say_who == 'hjw_q'", im.Grayscale(im.FactorScale(im.Flip("Character Standing/mini-standing-shirt3-smile.png", horizontal=True), 0.75))
+)
+
+
+
+
+##################
+#### 김옥균 ####
+##################
+## base
+image kog = ConditionSwitch(
+    "_last_say_who == 'kog'", im.FactorScale("Character Standing/pil-standing-shirt1-default1.png", 0.78),
+    "not _last_say_who == 'kog'", im.Grayscale(im.FactorScale("Character Standing/pil-standing-shirt1-default1.png", 0.75))
+)
+
+
+
+### shirt (shortshirt)
+## default
+image kog shirt = ConditionSwitch(
+    "_last_say_who == 'kog'", im.FactorScale("Character Standing/pil-standing-shirt1-default.png", 0.78),
+    "not _last_say_who == 'kog'", im.Grayscale(im.FactorScale("Character Standing/pil-standing-shirt1-default.png", 0.75))
+)
+image kog shirt_left = ConditionSwitch(
+    "_last_say_who == 'kog'", im.FactorScale("Character Standing/pil-standing-shirt1-default.png", 0.78),
+    "not _last_say_who == 'kog'", im.Grayscale(im.FactorScale("Character Standing/pil-standing-shirt1-default.png", 0.75))
+)
+image kog shirt_right = ConditionSwitch(
+    "_last_say_who == 'kog'", im.FactorScale(im.Flip("Character Standing/pil-standing-shirt1-default.png", horizontal=True), 0.78),
+    "not _last_say_who == 'kog'", im.Grayscale(im.FactorScale(im.Flip("Character Standing/pil-standing-shirt1-default.png", horizontal=True), 0.75))
+)
+
+
+## angry
+image kog shirt_angry = ConditionSwitch(
+    "_last_say_who == 'kog'", im.FactorScale("Character Standing/pil-standing-shirt1-angry.png", 0.78),
+    "not _last_say_who == 'kog'", im.Grayscale(im.FactorScale("Character Standing/pil-standing-shirt1-angry.png", 0.75))
+)
+image kog shirt_angry_left = ConditionSwitch(
+    "_last_say_who == 'kog'", im.FactorScale("Character Standing/pil-standing-shirt1-angry.png", 0.78),
+    "not _last_say_who == 'kog'", im.Grayscale(im.FactorScale("Character Standing/pil-standing-shirt1-angry.png", 0.75))
+)
+image kog shirt_angry_right = ConditionSwitch(
+    "_last_say_who == 'kog'", im.FactorScale(im.Flip("Character Standing/pil-standing-shirt1-angry.png", horizontal=True), 0.78),
+    "not _last_say_who == 'kog'", im.Grayscale(im.FactorScale(im.Flip("Character Standing/pil-standing-shirt1-angry.png", horizontal=True), 0.75))
+)
+
+
+## smile1 (small)
+image kog shirt_smile_small = ConditionSwitch(
+    "_last_say_who == 'kog'", im.FactorScale("Character Standing/pil-standing-shirt1-smile1.png", 0.78),
+    "not _last_say_who == 'kog'", im.Grayscale(im.FactorScale("Character Standing/pil-standing-shirt1-smile1.png", 0.75))
+)
+image kog shirt_smile_small_left = ConditionSwitch(
+    "_last_say_who == 'kog'", im.FactorScale("Character Standing/pil-standing-shirt1-smile1.png", 0.78),
+    "not _last_say_who == 'kog'", im.Grayscale(im.FactorScale("Character Standing/pil-standing-shirt1-smile1.png", 0.75))
+)
+image kog shirt_smile_small_right = ConditionSwitch(
+    "_last_say_who == 'kog'", im.FactorScale(im.Flip("Character Standing/pil-standing-shirt1-smile1.png", horizontal=True), 0.78),
+    "not _last_say_who == 'kog'", im.Grayscale(im.FactorScale(im.Flip("Character Standing/pil-standing-shirt1-smile1.png", horizontal=True), 0.75))
+)
+
+
+## smile2 (big)
+image kog shirt_smile_big = ConditionSwitch(
+    "_last_say_who == 'kog'", im.FactorScale("Character Standing/pil-standing-shirt1-smile2.png", 0.78),
+    "not _last_say_who == 'kog'", im.Grayscale(im.FactorScale("Character Standing/pil-standing-shirt1-smile2.png", 0.75))
+)
+image kog shirt_smile_big_left = ConditionSwitch(
+    "_last_say_who == 'kog'", im.FactorScale("Character Standing/pil-standing-shirt1-smile2.png", 0.78),
+    "not _last_say_who == 'kog'", im.Grayscale(im.FactorScale("Character Standing/pil-standing-shirt1-smile2.png", 0.75))
+)
+image kog shirt_smile_big_right = ConditionSwitch(
+    "_last_say_who == 'kog'", im.FactorScale(im.Flip("Character Standing/pil-standing-shirt1-smile2.png", horizontal=True), 0.78),
+    "not _last_say_who == 'kog'", im.Grayscale(im.FactorScale(im.Flip("Character Standing/pil-standing-shirt1-smile2.png", horizontal=True), 0.75))
+)
+
+
+
+### shirt1 (shortshirt)
+## default
+image kog shortshirt = ConditionSwitch(
+    "_last_say_who == 'kog'", im.FactorScale("Character Standing/pil-standing-shirt1-default.png", 0.78),
+    "not _last_say_who == 'kog'", im.Grayscale(im.FactorScale("Character Standing/pil-standing-shirt1-default.png", 0.75))
+)
+image kog shortshirt_left = ConditionSwitch(
+    "_last_say_who == 'kog'", im.FactorScale("Character Standing/pil-standing-shirt1-default.png", 0.78),
+    "not _last_say_who == 'kog'", im.Grayscale(im.FactorScale("Character Standing/pil-standing-shirt1-default.png", 0.75))
+)
+image kog shortshirt_right = ConditionSwitch(
+    "_last_say_who == 'kog'", im.FactorScale(im.Flip("Character Standing/pil-standing-shirt1-default.png", horizontal=True), 0.78),
+    "not _last_say_who == 'kog'", im.Grayscale(im.FactorScale(im.Flip("Character Standing/pil-standing-shirt1-default.png", horizontal=True), 0.75))
+)
+
+
+## angry
+image kog shortshirt_angry = ConditionSwitch(
+    "_last_say_who == 'kog'", im.FactorScale("Character Standing/pil-standing-shirt1-angry.png", 0.78),
+    "not _last_say_who == 'kog'", im.Grayscale(im.FactorScale("Character Standing/pil-standing-shirt1-angry.png", 0.75))
+)
+image kog shortshirt_angry_left = ConditionSwitch(
+    "_last_say_who == 'kog'", im.FactorScale("Character Standing/pil-standing-shirt1-angry.png", 0.78),
+    "not _last_say_who == 'kog'", im.Grayscale(im.FactorScale("Character Standing/pil-standing-shirt1-angry.png", 0.75))
+)
+image kog shortshirt_angry_right = ConditionSwitch(
+    "_last_say_who == 'kog'", im.FactorScale(im.Flip("Character Standing/pil-standing-shirt1-angry.png", horizontal=True), 0.78),
+    "not _last_say_who == 'kog'", im.Grayscale(im.FactorScale(im.Flip("Character Standing/pil-standing-shirt1-angry.png", horizontal=True), 0.75))
+)
+
+
+## smile1 (small)
+image kog shortshirt_smile_small = ConditionSwitch(
+    "_last_say_who == 'kog'", im.FactorScale("Character Standing/pil-standing-shirt1-smile1.png", 0.78),
+    "not _last_say_who == 'kog'", im.Grayscale(im.FactorScale("Character Standing/pil-standing-shirt1-smile1.png", 0.75))
+)
+image kog shortshirt_smile_small_left = ConditionSwitch(
+    "_last_say_who == 'kog'", im.FactorScale("Character Standing/pil-standing-shirt1-smile1.png", 0.78),
+    "not _last_say_who == 'kog'", im.Grayscale(im.FactorScale("Character Standing/pil-standing-shirt1-smile1.png", 0.75))
+)
+image kog shortshirt_smile_small_right = ConditionSwitch(
+    "_last_say_who == 'kog'", im.FactorScale(im.Flip("Character Standing/pil-standing-shirt1-smile1.png", horizontal=True), 0.78),
+    "not _last_say_who == 'kog'", im.Grayscale(im.FactorScale(im.Flip("Character Standing/pil-standing-shirt1-smile1.png", horizontal=True), 0.75))
+)
+
+
+## smile2 (big)
+image kog shortshirt_smile_big = ConditionSwitch(
+    "_last_say_who == 'kog'", im.FactorScale("Character Standing/pil-standing-shirt1-smile2.png", 0.78),
+    "not _last_say_who == 'kog'", im.Grayscale(im.FactorScale("Character Standing/pil-standing-shirt1-smile2.png", 0.75))
+)
+image kog shortshirt_smile_big_left = ConditionSwitch(
+    "_last_say_who == 'kog'", im.FactorScale("Character Standing/pil-standing-shirt1-smile2.png", 0.78),
+    "not _last_say_who == 'kog'", im.Grayscale(im.FactorScale("Character Standing/pil-standing-shirt1-smile2.png", 0.75))
+)
+image kog shortshirt_smile_big_right = ConditionSwitch(
+    "_last_say_who == 'kog'", im.FactorScale(im.Flip("Character Standing/pil-standing-shirt1-smile2.png", horizontal=True), 0.78),
+    "not _last_say_who == 'kog'", im.Grayscale(im.FactorScale(im.Flip("Character Standing/pil-standing-shirt1-smile2.png", horizontal=True), 0.75))
+)
+
+
+# ### jacket1
+# ## default1 (hard)
+# image kog jacket_hard = ConditionSwitch(
+#     "_last_say_who == 'kog'", im.FactorScale("Character Standing/pil-standing-jacket1-default1.png", 0.78),
+#     "not _last_say_who == 'kog'", im.Grayscale(im.FactorScale("Character Standing/pil-standing-jacket1-default1.png", 0.75))
+# )
+# image kog jacket_hard_left = ConditionSwitch(
+#     "_last_say_who == 'kog'", im.FactorScale("Character Standing/pil-standing-jacket1-default1.png", 0.78),
+#     "not _last_say_who == 'kog'", im.Grayscale(im.FactorScale("Character Standing/pil-standing-jacket1-default1.png", 0.75))
+# )
+# image kog jacket_hard_right = ConditionSwitch(
+#     "_last_say_who == 'kog'", im.FactorScale(im.Flip("Character Standing/pil-standing-jacket1-default1.png", horizontal=True), 0.78),
+#     "not _last_say_who == 'kog'", im.Grayscale(im.FactorScale(im.Flip("Character Standing/pil-standing-jacket1-default1.png", horizontal=True), 0.75))
+# )
+
+
+# ## default2 (soft)
+# image kog jacket_soft = ConditionSwitch(
+#     "_last_say_who == 'kog'", im.FactorScale("Character Standing/pil-standing-jacket1-default2.png", 0.78),
+#     "not _last_say_who == 'kog'", im.Grayscale(im.FactorScale("Character Standing/pil-standing-jacket1-default2.png", 0.75))
+# )
+# image kog jacket_soft_left = ConditionSwitch(
+#     "_last_say_who == 'kog'", im.FactorScale("Character Standing/pil-standing-jacket1-default2.png", 0.78),
+#     "not _last_say_who == 'kog'", im.Grayscale(im.FactorScale("Character Standing/pil-standing-jacket1-default2.png", 0.75))
+# )
+# image kog jacket_soft_right = ConditionSwitch(
+#     "_last_say_who == 'kog'", im.FactorScale(im.Flip("Character Standing/pil-standing-jacket1-default2.png", horizontal=True), 0.78),
+#     "not _last_say_who == 'kog'", im.Grayscale(im.FactorScale(im.Flip("Character Standing/pil-standing-jacket1-default2.png", horizontal=True), 0.75))
+# )
+
+
+# ## smile
+# image kog jacket_smile = ConditionSwitch(
+#     "_last_say_who == 'kog'", im.FactorScale("Character Standing/pil-standing-jacket1-smile.png", 0.78),
+#     "not _last_say_who == 'kog'", im.Grayscale(im.FactorScale("Character Standing/pil-standing-jacket1-smile.png", 0.75))
+# )
+# image kog jacket_smile_left = ConditionSwitch(
+#     "_last_say_who == 'kog'", im.FactorScale("Character Standing/pil-standing-jacket1-smile.png", 0.78),
+#     "not _last_say_who == 'kog'", im.Grayscale(im.FactorScale("Character Standing/pil-standing-jacket1-smile.png", 0.75))
+# )
+# image kog jacket_smile_right = ConditionSwitch(
+#     "_last_say_who == 'kog'", im.FactorScale(im.Flip("Character Standing/pil-standing-jacket1-smile.png", horizontal=True), 0.78),
+#     "not _last_say_who == 'kog'", im.Grayscale(im.FactorScale(im.Flip("Character Standing/pil-standing-jacket1-smile.png", horizontal=True), 0.75))
+# )
+
+
+
+
+
+#################################################################################################################
+#### 기타 설정 ####
+#################################################################################################################
 # 색 설정
 define highlight = "#FF8C00"
 
@@ -219,25 +885,34 @@ screen remove_rollback():
     key "mousedown_4" action NullAction
     key "joy_rollback" action NullAction
 
-# 게임 시작
+
+
+
+
+#################################################################################################################
+#### label ####
+#################################################################################################################
+# 시작
 label start:
     show screen remove_rollback()
 
     # jump script_test
+    jump script_opening
     
-    if not persistent.start:
-        jump intro
-    else:
-        if (persistent.jh_selected == True):
-            jump script_hjh
-        elif (persistent.kog_selected == True):
-            jump script_kog
-        else:
-            jump script_opening
+    # if not persistent.start:
+    #     jump intro
+    # else:
+    #     if (persistent.jh_selected == True):
+    #         jump script_hjh
+    #     elif (persistent.kog_selected == True):
+    #         jump script_kog
+    #     else:
+    #         jump script_opening
 
     return
 
 
+# 인트로
 label intro:
     $ renpy.pause(2.0, hard=True)
     

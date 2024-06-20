@@ -7,3 +7,7 @@ game/saves/*
 *.save
 
 game/saves/persistent
+errors.txt
+log.txt
+traceback.txt
+/game/saves
