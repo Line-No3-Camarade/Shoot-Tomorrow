@@ -29,7 +29,7 @@ label script_opening:
     "창호 바른 미닫이문이 양옆으로 열리며 때늦은 햇살이 쏟아져 들어왔다."
     "소매 걷은 팔 위로 온기와 서늘한 바람이 겹쳤다."
 
-    show hjw_q shirt_hurt_left at right
+    show jh shirt_hurt_left at right
     show kog shirt_right at left
 
     "옥균은 빠르지 않은 걸음으로 방에 들어섰다."
@@ -37,7 +37,7 @@ label script_opening:
     "닿은 시선이 서로 떨어지지 않는다."
     "홍종우가 앞으로 나서서 옥균에게 {color=#F53D3D}서찰{/color}을 건넸다."
 
-    hjw_q shirt_hurt_left "선생께 긴히 전해드릴 것이 있어 왔습니다. 청국대신 이홍장의 밀서입니다."
+    hjw_q "선생께 긴히 전해드릴 것이 있어 왔습니다. 청국대신 이홍장의 밀서입니다."
     kog "…이홍장?"
 
     "옥균은 서찰을 받아 펼쳤다."
@@ -75,7 +75,7 @@ label script_opening:
         "김옥균":
             play sound "audio/Handling_Trimmed.mp3"
             hide jh
-            show kog shirt_right at center
+            show kog shirt_right_color at center
             "김옥균을 선택하셨습니다."
             $ kog_selected = 1
             $ jh_selected = 0
@@ -87,7 +87,7 @@ label script_opening:
         "한정훈":
             play sound "audio/Handling_Trimmed.mp3"
             hide kog
-            show jh shirt_hurt_left at center
+            show jh shirt_hurt_left_color at center
             "한정훈을 선택하셨습니다."
             $ jh_selected = 1
             $ kog_selected = 0
