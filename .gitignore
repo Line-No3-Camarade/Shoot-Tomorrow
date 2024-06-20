@@ -12,3 +12,6 @@ traceback.txt
 /game/saves/persistent
 /game/saves/*
 *.save
+/game/cache
+/game/saves
+/game/saves

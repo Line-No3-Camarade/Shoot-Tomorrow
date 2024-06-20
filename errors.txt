@@ -2,11 +2,9 @@
 errors listed below, and try again.
 
 
-The label intro is defined twice, at File "game/script.rpy", line 241:
-label intro:
-and File "game/script_opening.rpy", line 20:
-label intro:
-
+File "game/baduk.rpy", line 5: u'show' is not a keyword argument or valid child for the screen statement.
+    show black
+        ^
 
 Ren'Py Version: Ren'Py 7.4.11.2266
-Sun May  5 17:36:41 2024
+Thu Jun 20 17:52:31 2024

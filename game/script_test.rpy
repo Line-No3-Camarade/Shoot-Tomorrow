@@ -1,16 +1,20 @@
 define test = Character('테스트', color="#FFD9FA")
-define mimi = Character('미니정훈', color="#a0a0a0", image="jh")
 
 
 label script_test:
     scene black
 
-    show jh
-    jh "default"
-    test "next"
+    show jh shirt_hurt_left at right
+    show kog shirt_right at left
 
-    jh jacket_smile_right "jacket_smile"
-    test "next"
+    kog "자네가 먼저 두시게."
+    jh "…예, 알겠습니다."
+
+    show screen baduk
+
+    jh "……."
+
+    hide screen baduk
 
     # show jh jacket_soft
     # jh "jh jacket_soft"
