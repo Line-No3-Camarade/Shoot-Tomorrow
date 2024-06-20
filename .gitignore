@@ -6,6 +6,7 @@
 *.save
 
 ./*.txt
+*.txt
 log.txt
 errors.txt
 traceback.txt
