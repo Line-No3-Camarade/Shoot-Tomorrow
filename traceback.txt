@@ -27,4 +27,4 @@ Exception: Image 'kog' does not accept attributes 'shirt_right_color'.
 Windows-10-10.0.22621
 Ren'Py 7.4.11.2266
 Shoot Tomorrow 1.0
-Thu Jun 20 17:15:03 2024
+Thu Jun 20 17:22:30 2024
