@@ -2,9 +2,11 @@ image rock_black = im.Scale("baduk/rock_black.png", 30, 30)
 image rock_white = im.Scale("baduk/rock_white.png", 30, 30)
 image rock_transparent = im.Scale("baduk/rock_transparent.png", 30, 30)
 
-
+default count = 0
 
 init python:
+    count = 0
+
     rows = 19
     cols = 19
 
@@ -19,20 +21,38 @@ init python:
 
     zero_x = 24
     zero_y = 24
+    
+    def init_board():    
+        for i in range(rows):
+            row = []
+            state_row = []
+            for j in range(cols):
+                x = zero_x + i*square_width
+                y = zero_y + j*square_height
+                row.append((x, y))
+                state_row.append(False)
+            baduk_board.append(row)
+            button_states.append(state_row)
 
-    for i in range(rows):
-        row = []
-        state_row = []
-        for j in range(cols):
-            x = zero_x + i*square_width
-            y = zero_y + j*square_height
-            row.append((x, y))
-            state_row.append(False)
-        baduk_board.append(row)
-        button_states.append(state_row)
+
+    def clear_states():
+        for i in range(rows):
+            for j in range(cols):
+                button_states[i][j] = False
+    
+
+    def count_exit():
+        global count
+        count += 1
+
+        if count == 2:
+            clear_states()
+        
 
     def ToggleButton(i, j):
         button_states[i][j] = not button_states[i][j]
+
+    init_board()
 
 
 screen baduk():
@@ -89,7 +109,7 @@ screen baduk():
 
                                 if i == 0 and j == 0:
                                     idle "rock_black"
-                                    action [SetVariable("co", (i, j)), Return()]
+                                    action [SetVariable("co", (i, j)), Function(count_exit), Return()]
 
                                 
                                 # if renpy.get_screen("baduk").get(button_id).button_state:

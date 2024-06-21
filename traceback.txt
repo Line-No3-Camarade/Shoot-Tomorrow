@@ -1,40 +1,20 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script_test.rpy", line 21, in script
+  File "game/script_test.rpy", line 26, in script
     call screen baduk
   File "renpy/common/000statements.rpy", line 569, in execute_call_screen
     store._return = renpy.call_screen(name, *args, **kwargs)
-  File "game/baduk.rpy", line 53, in execute
-    screen baduk():
-  File "game/baduk.rpy", line 53, in execute
-    screen baduk():
-  File "game/baduk.rpy", line 55, in execute
-    frame:
-  File "game/baduk.rpy", line 71, in execute
-    vbox:
-  File "game/baduk.rpy", line 77, in execute
-    vbox:
-  File "game/baduk.rpy", line 83, in execute
-    grid 19 19:
-  File "game/baduk.rpy", line 86, in execute
-    for i in range(rows):
-  File "game/baduk.rpy", line 87, in execute
-    for j in range(cols):
-  File "game/baduk.rpy", line 91, in execute
-    imagebutton:
-  File "game/baduk.rpy", line 91, in keywords
-    imagebutton:
-  File "game/baduk.rpy", line 99, in keywords
-    if button_state[i][j]:
-  File "game/baduk.rpy", line 99, in <module>
-    if button_state[i][j]:
-TypeError: 'bool' object has no attribute '__getitem__'
+  File "renpy/common/00action_other.rpy", line 537, in __call__
+    rv = self.callable(*self.args, **self.kwargs)
+  File "game/baduk.rpy", line 45, in count_exit
+    count += 1
+UnboundLocalError: local variable 'count' referenced before assignment
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script_test.rpy", line 21, in script
+  File "game/script_test.rpy", line 26, in script
     call screen baduk
   File "renpy/ast.py", line 2015, in execute
     self.call("execute")
@@ -50,49 +30,45 @@ Full traceback:
     rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
   File "renpy/display/core.py", line 3325, in interact
     repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
-  File "renpy/display/core.py", line 3737, in interact_core
-    root_widget.visit_all(lambda i : i.per_interact())
-  File "renpy/display/core.py", line 568, in visit_all
-    d.visit_all(callback, seen)
-  File "renpy/display/core.py", line 568, in visit_all
-    d.visit_all(callback, seen)
-  File "renpy/display/core.py", line 568, in visit_all
-    d.visit_all(callback, seen)
-  File "renpy/display/screen.py", line 436, in visit_all
-    callback(self)
-  File "renpy/display/core.py", line 3737, in <lambda>
-    root_widget.visit_all(lambda i : i.per_interact())
-  File "renpy/display/screen.py", line 447, in per_interact
-    self.update()
-  File "renpy/display/screen.py", line 637, in update
-    self.screen.function(**self.scope)
-  File "game/baduk.rpy", line 53, in execute
-    screen baduk():
-  File "game/baduk.rpy", line 53, in execute
-    screen baduk():
-  File "game/baduk.rpy", line 55, in execute
-    frame:
-  File "game/baduk.rpy", line 71, in execute
-    vbox:
-  File "game/baduk.rpy", line 77, in execute
-    vbox:
-  File "game/baduk.rpy", line 83, in execute
-    grid 19 19:
-  File "game/baduk.rpy", line 86, in execute
-    for i in range(rows):
-  File "game/baduk.rpy", line 87, in execute
-    for j in range(cols):
-  File "game/baduk.rpy", line 91, in execute
-    imagebutton:
-  File "game/baduk.rpy", line 91, in keywords
-    imagebutton:
-  File "game/baduk.rpy", line 99, in keywords
-    if button_state[i][j]:
-  File "game/baduk.rpy", line 99, in <module>
-    if button_state[i][j]:
-TypeError: 'bool' object has no attribute '__getitem__'
+  File "renpy/display/core.py", line 4160, in interact_core
+    rv = root_widget.event(ev, x, y, 0)
+  File "renpy/display/layout.py", line 1102, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "renpy/display/layout.py", line 1102, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "renpy/display/layout.py", line 1102, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "renpy/display/screen.py", line 727, in event
+    rv = self.child.event(ev, x, y, st)
+  File "renpy/display/layout.py", line 1102, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "renpy/display/layout.py", line 1323, in event
+    rv = super(Window, self).event(ev, x, y, st)
+  File "renpy/display/layout.py", line 273, in event
+    rv = d.event(ev, x - xo, y - yo, st)
+  File "renpy/display/layout.py", line 1102, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "renpy/display/layout.py", line 1102, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "renpy/display/layout.py", line 1102, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "renpy/display/layout.py", line 273, in event
+    rv = d.event(ev, x - xo, y - yo, st)
+  File "renpy/display/behavior.py", line 983, in event
+    return handle_click(self.clicked)
+  File "renpy/display/behavior.py", line 918, in handle_click
+    rv = run(action)
+  File "renpy/display/behavior.py", line 323, in run
+    new_rv = run(i, *args, **kwargs)
+  File "renpy/display/behavior.py", line 330, in run
+    return action(*args, **kwargs)
+  File "renpy/common/00action_other.rpy", line 537, in __call__
+    rv = self.callable(*self.args, **self.kwargs)
+  File "game/baduk.rpy", line 45, in count_exit
+    count += 1
+UnboundLocalError: local variable 'count' referenced before assignment
 
 Windows-10-10.0.22621
 Ren'Py 7.4.11.2266
 Shoot Tomorrow 1.0
-Fri Jun 21 17:55:09 2024
+Fri Jun 21 18:17:25 2024
