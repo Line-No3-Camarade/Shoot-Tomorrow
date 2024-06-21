@@ -2,9 +2,10 @@
 errors listed below, and try again.
 
 
-File "game/baduk.rpy", line 61: keyword argument u'xalign' appears more than once in a vbox statement.
-    xalign 0.5
-          ^
+File "game/baduk.rpy", line 36: invalid syntax
+        text baduk_board[i][j]
+                        ^
+    
 
 Ren'Py Version: Ren'Py 7.4.11.2266
-Fri Jun 21 17:14:27 2024
+Fri Jun 21 17:54:03 2024

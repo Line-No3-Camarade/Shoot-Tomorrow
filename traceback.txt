@@ -1,22 +1,98 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script_test.rpy", line 24, in script
-    jump round2R
-ScriptError: could not find label 'round2R'.
+  File "game/script_test.rpy", line 21, in script
+    call screen baduk
+  File "renpy/common/000statements.rpy", line 569, in execute_call_screen
+    store._return = renpy.call_screen(name, *args, **kwargs)
+  File "game/baduk.rpy", line 53, in execute
+    screen baduk():
+  File "game/baduk.rpy", line 53, in execute
+    screen baduk():
+  File "game/baduk.rpy", line 55, in execute
+    frame:
+  File "game/baduk.rpy", line 71, in execute
+    vbox:
+  File "game/baduk.rpy", line 77, in execute
+    vbox:
+  File "game/baduk.rpy", line 83, in execute
+    grid 19 19:
+  File "game/baduk.rpy", line 86, in execute
+    for i in range(rows):
+  File "game/baduk.rpy", line 87, in execute
+    for j in range(cols):
+  File "game/baduk.rpy", line 91, in execute
+    imagebutton:
+  File "game/baduk.rpy", line 91, in keywords
+    imagebutton:
+  File "game/baduk.rpy", line 99, in keywords
+    if button_state[i][j]:
+  File "game/baduk.rpy", line 99, in <module>
+    if button_state[i][j]:
+TypeError: 'bool' object has no attribute '__getitem__'
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script_test.rpy", line 24, in script
-    jump round2R
-  File "renpy/ast.py", line 1757, in execute
-    rv = renpy.game.script.lookup(target)
-  File "renpy/script.py", line 918, in lookup
-    raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'round2R'.
+  File "game/script_test.rpy", line 21, in script
+    call screen baduk
+  File "renpy/ast.py", line 2015, in execute
+    self.call("execute")
+  File "renpy/ast.py", line 2003, in call
+    return renpy.statements.call(method, parsed, *args, **kwargs)
+  File "renpy/statements.py", line 278, in call
+    return method(parsed, *args, **kwargs)
+  File "renpy/common/000statements.rpy", line 569, in execute_call_screen
+    store._return = renpy.call_screen(name, *args, **kwargs)
+  File "renpy/exports.py", line 3136, in call_screen
+    rv = renpy.ui.interact(mouse="screen", type="screen", roll_forward=roll_forward)
+  File "renpy/ui.py", line 298, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "renpy/display/core.py", line 3325, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
+  File "renpy/display/core.py", line 3737, in interact_core
+    root_widget.visit_all(lambda i : i.per_interact())
+  File "renpy/display/core.py", line 568, in visit_all
+    d.visit_all(callback, seen)
+  File "renpy/display/core.py", line 568, in visit_all
+    d.visit_all(callback, seen)
+  File "renpy/display/core.py", line 568, in visit_all
+    d.visit_all(callback, seen)
+  File "renpy/display/screen.py", line 436, in visit_all
+    callback(self)
+  File "renpy/display/core.py", line 3737, in <lambda>
+    root_widget.visit_all(lambda i : i.per_interact())
+  File "renpy/display/screen.py", line 447, in per_interact
+    self.update()
+  File "renpy/display/screen.py", line 637, in update
+    self.screen.function(**self.scope)
+  File "game/baduk.rpy", line 53, in execute
+    screen baduk():
+  File "game/baduk.rpy", line 53, in execute
+    screen baduk():
+  File "game/baduk.rpy", line 55, in execute
+    frame:
+  File "game/baduk.rpy", line 71, in execute
+    vbox:
+  File "game/baduk.rpy", line 77, in execute
+    vbox:
+  File "game/baduk.rpy", line 83, in execute
+    grid 19 19:
+  File "game/baduk.rpy", line 86, in execute
+    for i in range(rows):
+  File "game/baduk.rpy", line 87, in execute
+    for j in range(cols):
+  File "game/baduk.rpy", line 91, in execute
+    imagebutton:
+  File "game/baduk.rpy", line 91, in keywords
+    imagebutton:
+  File "game/baduk.rpy", line 99, in keywords
+    if button_state[i][j]:
+  File "game/baduk.rpy", line 99, in <module>
+    if button_state[i][j]:
+TypeError: 'bool' object has no attribute '__getitem__'
 
 Windows-10-10.0.22621
 Ren'Py 7.4.11.2266
 Shoot Tomorrow 1.0
-Fri Jun 21 17:20:34 2024
+Fri Jun 21 17:55:09 2024

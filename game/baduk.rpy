@@ -1,5 +1,7 @@
 image rock_black = im.Scale("baduk/rock_black.png", 30, 30)
 image rock_white = im.Scale("baduk/rock_white.png", 30, 30)
+image rock_transparent = im.Scale("baduk/rock_transparent.png", 30, 30)
+
 
 
 init python:
@@ -7,6 +9,7 @@ init python:
     cols = 19
 
     baduk_board = []
+    button_states = []
 
     baudk_width = 800
     baudk_height = 800
@@ -19,15 +22,17 @@ init python:
 
     for i in range(rows):
         row = []
+        state_row = []
         for j in range(cols):
             x = zero_x + i*square_width
             y = zero_y + j*square_height
             row.append((x, y))
+            state_row.append(False)
         baduk_board.append(row)
+        button_states.append(state_row)
 
-
-
-
+    def ToggleButton(i, j):
+        button_states[i][j] = not button_states[i][j]
 
 
 screen baduk():
@@ -65,23 +70,42 @@ screen baduk():
                     
                     for i in range(rows):
                         for j in range(cols):
+                            $ button_id = "{}_{}".format(i, j)
+
                             imagebutton:
                                 xsize 30
                                 ysize 30
                                 xalign 0.5
                                 yalign 0.5
 
-                                if i % 2 == 0:
-                                    if j % 2 == 0:
-                                        idle "rock_white"
-                                    else:
-                                        idle "rock_black"
+                                id button_id
+
+                                if button_states[i][j]:
+                                    idle "rock_white"
                                 else:
-                                    if j % 2 == 0:
-                                        idle "rock_black"
-                                    else:
-                                        idle "rock_white"
+                                    idle "rock_transparent"
                                 
-                                action [SetVariable("co", (i, j)), Return()]
+                                action Function(ToggleButton, i, j)
+
+                                
+                                # if renpy.get_screen("baduk").get(button_id).button_state:
+                                #     idle "rock_white"
+                                # else:
+                                #     idle "rock_transparent"
+
+                                # action ToggleButton(button_id)
+
+                                # if i % 2 == 0:
+                                #     if j % 2 == 0:
+                                #         idle "rock_transparent" if imagebutton.id else "rock_white"
+                                #     else:
+                                #         idle "rock_transparent" if button_state else "rock_black"
+                                # else:
+                                #     if j % 2 == 0:
+                                #         idle "rock_transparent" if button_state else "rock_white"
+                                #     else:
+                                #         idle "rock_transparent" if button_state else "rock_black"
+                                
+                                # action [SetVariable("co", (i, j)), Return()]
 
     
