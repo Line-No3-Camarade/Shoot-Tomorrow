@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/baduk.rpy", line 5: u'show' is not a keyword argument or valid child for the screen statement.
-    show black
-        ^
+File "game/baduk.rpy", line 61: keyword argument u'xalign' appears more than once in a vbox statement.
+    xalign 0.5
+          ^
 
 Ren'Py Version: Ren'Py 7.4.11.2266
-Thu Jun 20 17:52:31 2024
+Fri Jun 21 17:14:27 2024

@@ -1,34 +1,32 @@
 define test = Character('테스트', color="#FFD9FA")
 
+default co = None
+
+        
 
 label script_test:
     scene black
 
     show jh shirt_hurt_left at right
     show kog shirt_right at left
+    
+    jump round1
 
-    kog "자네가 먼저 두시게."
+label round1:
+    kog "자네가 먼저 두게."
     jh "…예, 알겠습니다."
 
-    show screen baduk
+    "바둑알을 선택해 주세요."
 
-    jh "……."
+    call screen baduk
 
-    hide screen baduk
+    if co:
+        "선택된 좌표는 [co] 입니다."
 
-    # show jh jacket_soft
-    # jh "jh jacket_soft"
-    # test "next"
-    # hide jh jacket_soft
+    jump round2
 
-    # show jh jacket_right
-    # jh "jh jacket_right"
-    # test "next"
-    # hide jh jacket_right
 
-    # show jh jacket_right_smile
-    # jh "jh jacket_right_smile"
-    # test "next"
-    # hide jh jacket_smile
-    
-    return
+label round2:
+    kog "계속하지."
+    jh "…예."
+

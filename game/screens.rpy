@@ -254,6 +254,7 @@ screen quick_menu():
             textbutton _("불러오기") action ShowMenu('load')
             # textbutton _("Q.저장하기") action QuickSave()
             # textbutton _("Q.불러오기") action QuickLoad()
+            textbutton _("메인 메뉴") action MainMenu()
             textbutton _("설정") action ShowMenu('preferences')
 
 

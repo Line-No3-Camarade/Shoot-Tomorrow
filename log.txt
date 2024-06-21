@@ -1,41 +1,23 @@
-Thu Jun 20 18:08:54 2024
+Fri Jun 21 16:49:19 2024
 Windows-10-10.0.22621
 Ren'Py 7.4.11.2266
  
 
-Bootstrap to the start of init.init took 0.16s
-Early init took 0.01s
-Loader init took 0.03s
-Loading error handling took 0.03s
-Loading script took 0.62s
-Loading save slot metadata. took 0.06s
+Bootstrap to the start of init.init took 0.09s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.04s
+Loading script took 0.38s
+Loading save slot metadata. took 0.03s
 Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.08s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
-Dump and make backups. took 0.09s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.04s
+
+File "game/baduk.rpy", line 45: u'fit' is not a keyword argument or valid child for the vbox statement.
+    fit "contain"
+       ^
 DPI scale factor: 1.500000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: "Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.03s
-Cleaning stores took 0.00s
-Init translation took 0.15s
-Build styles took 0.01s
-Load screen analysis took 0.01s
-Analyze screens took 0.04s
-Save screen analysis took 0.15s
-Prepare screens took 0.20s
-Save pyanalysis. took 0.07s
-Save bytecode. took 0.08s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.99s
+Interface start took 0.52s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 2560, 1600)
@@ -45,12 +27,5316 @@ Vendor: 'Intel'
 Renderer: 'Intel(R) Iris(R) Plus Graphics'
 Version: '4.6.0 - Build 30.0.100.9836'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2453, 1380) drawable=(2453, 1380)
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 19.35s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.19s
+Loading save slot metadata. took 0.04s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.10s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.06s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.09s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.05s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.06s
+Save bytecode. took 0.04s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.12s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 45.55s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.20s
+Loading save slot metadata. took 0.04s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.08s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.08s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.05s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.06s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.12s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 56.65s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.19s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.06s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.10s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.05s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.06s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.13s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 67.56s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.19s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.09s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.10s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.05s
+Prepare screens took 0.13s
+Save pyanalysis. took 0.05s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.16s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 75.51s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.20s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.15s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.13s
+Build styles took 0.01s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.16s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 92.48s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.20s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+
+File "game/baduk.rpy", line 52: Line is indented, but the preceding idle statement does not expect a block. Please check this line's indentation.
+    xsize 30
+    ^
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Interface start took 0.27s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 101.72s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.20s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+
+File "game/baduk.rpy", line 53: is not terminated with a newline. (Check strings and parenthesis.)
+(Perhaps you left out a " at the end of the first line.)
+                            fit "contain""
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Interface start took 0.19s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 103.50s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.25s
+Loading save slot metadata. took 0.04s
+Loading persistent took 0.00s
+
+File "game/baduk.rpy", line 53: is not terminated with a newline. (Check strings and parenthesis.)
+(Perhaps you left out a " at the end of the first line.)
+                            fit "contain
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Interface start took 0.22s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 108.26s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.18s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+
+File "game/baduk.rpy", line 52: Line is indented, but the preceding idle statement does not expect a block. Please check this line's indentation.
+    xsize 30
+    ^
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Interface start took 0.16s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 109.18s
+Early init took 0.00s
+Loader init took 0.04s
+Loading error handling took 0.04s
+Loading script took 0.42s
+Loading save slot metadata. took 0.05s
+Loading persistent took 0.00s
+
+File "game/baduk.rpy", line 52: Line is indented, but the preceding idle statement does not expect a block. Please check this line's indentation.
+    xsize 30
+    ^
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Interface start took 0.19s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 118.45s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.18s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+
+File "game/baduk.rpy", line 51: expected a keyword argument or end of line.
+    idle "baduk/rock_white.png":
+                               ^
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Interface start took 0.19s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 120.18s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.33s
+Loading save slot metadata. took 0.09s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.13s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Dump and make backups. took 0.10s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.10s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.13s
+Build styles took 0.01s
+Load screen analysis took 0.05s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.17s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 140.15s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.27s
+Loading save slot metadata. took 0.04s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.07s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.11s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.10s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.04s
+Prepare screens took 0.12s
+Save pyanalysis. took 0.05s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.14s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 148.04s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.25s
+Loading save slot metadata. took 0.04s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.07s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.16s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.10s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.05s
+Prepare screens took 0.15s
+Save pyanalysis. took 0.04s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.22s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 167.98s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.23s
+Loading save slot metadata. took 0.04s
+Loading persistent took 0.00s
+
+File "game/baduk.rpy", line 43: vbox expects a non-empty block.
+    vbox:
+         ^
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Interface start took 0.27s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 208.77s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.25s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.07s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.08s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.11s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.04s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.05s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.15s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 220.75s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.28s
+Loading save slot metadata. took 0.05s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.10s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.10s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.06s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.13s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 255.78s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.21s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.12s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.11s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.08s
+Prepare screens took 0.14s
+Save pyanalysis. took 0.09s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.14s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 269.69s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.21s
+Loading save slot metadata. took 0.04s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.10s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.14s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.04s
+Prepare screens took 0.25s
+Save pyanalysis. took 0.06s
+Save bytecode. took 0.05s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.14s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 271.56s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.23s
+Loading save slot metadata. took 0.04s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.06s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.12s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.09s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.04s
+Prepare screens took 0.13s
+Save pyanalysis. took 0.05s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.15s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 273.45s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.18s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.15s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.13s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.08s
+Prepare screens took 0.17s
+Save pyanalysis. took 0.07s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.18s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 287.58s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.22s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.18s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.13s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.05s
+Prepare screens took 0.23s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.23s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 289.46s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.03s
+Loading script took 0.26s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.09s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.12s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.05s
+Save screen analysis took 0.08s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.08s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.14s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 316.94s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.19s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+
+File "game/baduk.rpy", line 54: u'fit' is not a keyword argument or valid child for the vbox statement.
+    fit "contain"
+       ^
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Interface start took 0.33s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 327.76s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.23s
+Loading save slot metadata. took 0.16s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.07s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.08s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.15s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.15s
+Prepare screens took 0.21s
+Save pyanalysis. took 0.09s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.18s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 341.95s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.26s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.11s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.24s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.06s
+Save screen analysis took 0.09s
+Prepare screens took 0.17s
+Save pyanalysis. took 0.07s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.20s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 345.36s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.21s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.11s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.09s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.04s
+Prepare screens took 0.14s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.14s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 365.25s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.20s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.16s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.08s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.07s
+Prepare screens took 0.14s
+Save pyanalysis. took 0.06s
+Save bytecode. took 0.04s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.18s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 416.77s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.02s
+Loading script took 0.26s
+Loading save slot metadata. took 0.05s
+Loading persistent took 0.00s
+
+File "game/baduk.rpy", line 59: u'xborder' is not a keyword argument or valid child for the grid statement.
+    xborder 
+           ^
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Interface start took 0.39s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 423.04s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.24s
+Loading save slot metadata. took 0.04s
+Loading persistent took 0.00s
+
+File "game/baduk.rpy", line 59: u'xborder' is not a keyword argument or valid child for the grid statement.
+    xborder 
+           ^
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Interface start took 0.39s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 427.80s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.26s
+Loading save slot metadata. took 0.04s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.09s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.09s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.16s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.15s
+Build styles took 0.07s
+Load screen analysis took 0.01s
+Analyze screens took 0.04s
+Save screen analysis took 0.07s
+Prepare screens took 0.17s
+Save pyanalysis. took 0.07s
+Save bytecode. took 0.04s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.19s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 443.48s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.21s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.13s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.10s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.04s
+Prepare screens took 0.15s
+Save pyanalysis. took 0.07s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.14s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 471.00s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.21s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.10s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.13s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.14s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.06s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.15s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 487.92s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.20s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+
+File "game/baduk.rpy", line 56: u'xpadding' is not a keyword argument or valid child for the grid statement.
+    xpadding 5
+            ^
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Interface start took 0.25s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 498.71s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.20s
+Loading save slot metadata. took 0.04s
+Loading persistent took 0.00s
+
+File "game/baduk.rpy", line 56: u'xpadding' is not a keyword argument or valid child for the grid statement.
+    xpadding 5
+            ^
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Interface start took 0.21s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 503.53s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.19s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+
+File "game/baduk.rpy", line 56: u'xpadding' is not a keyword argument or valid child for the grid statement.
+    xpadding 5
+            ^
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Interface start took 0.18s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 529.45s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.34s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+
+File "game/baduk.rpy", line 56: u'xpadding' is not a keyword argument or valid child for the grid statement.
+    xpadding 5
+            ^
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Interface start took 0.26s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 543.21s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.19s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+
+File "game/baduk.rpy", line 56: u'xpadding' is not a keyword argument or valid child for the grid statement.
+    xpadding 5
+            ^
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Interface start took 0.17s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 558.54s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.22s
+Loading save slot metadata. took 0.04s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.10s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.09s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.15s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.18s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.06s
+Prepare screens took 0.21s
+Save pyanalysis. took 0.07s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.15s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script_test.rpy", line 16, in script
+    call screen baduk
+  File "renpy/ast.py", line 2015, in execute
+    self.call("execute")
+  File "renpy/ast.py", line 2003, in call
+    return renpy.statements.call(method, parsed, *args, **kwargs)
+  File "renpy/statements.py", line 278, in call
+    return method(parsed, *args, **kwargs)
+  File "renpy/common/000statements.rpy", line 569, in execute_call_screen
+    store._return = renpy.call_screen(name, *args, **kwargs)
+  File "renpy/exports.py", line 3136, in call_screen
+    rv = renpy.ui.interact(mouse="screen", type="screen", roll_forward=roll_forward)
+  File "renpy/ui.py", line 298, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "renpy/display/core.py", line 3325, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
+  File "renpy/display/core.py", line 3737, in interact_core
+    root_widget.visit_all(lambda i : i.per_interact())
+  File "renpy/display/core.py", line 568, in visit_all
+    d.visit_all(callback, seen)
+  File "renpy/display/core.py", line 568, in visit_all
+    d.visit_all(callback, seen)
+  File "renpy/display/core.py", line 568, in visit_all
+    d.visit_all(callback, seen)
+  File "renpy/display/screen.py", line 441, in visit_all
+    self.child.visit_all(callback, seen=None)
+  File "renpy/display/core.py", line 568, in visit_all
+    d.visit_all(callback, seen)
+  File "renpy/display/core.py", line 568, in visit_all
+    d.visit_all(callback, seen)
+  File "renpy/display/core.py", line 568, in visit_all
+    d.visit_all(callback, seen)
+  File "renpy/display/core.py", line 568, in visit_all
+    d.visit_all(callback, seen)
+  File "renpy/display/core.py", line 570, in visit_all
+    callback(self)
+  File "renpy/display/core.py", line 3737, in <lambda>
+    root_widget.visit_all(lambda i : i.per_interact())
+  File "renpy/display/layout.py", line 546, in per_interact
+    raise Exception("Grid overfull.")
+Exception: Grid overfull.
+
+While running game code:
+  File "game/script_test.rpy", line 16, in script
+    call screen baduk
+  File "renpy/common/000statements.rpy", line 569, in execute_call_screen
+    store._return = renpy.call_screen(name, *args, **kwargs)
+Exception: Grid overfull.
+Resetting cache.
+Bootstrap to the start of init.init took 569.62s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.20s
+Loading save slot metadata. took 0.04s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.14s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.13s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.07s
+Prepare screens took 0.13s
+Save pyanalysis. took 0.04s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.15s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 580.59s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.19s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.06s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.15s
+Build styles took 0.01s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.19s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 666.88s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.03s
+Loading script took 0.31s
+Loading save slot metadata. took 0.08s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.10s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.16s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.14s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.05s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.07s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.25s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 674.95s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.24s
+Loading save slot metadata. took 0.04s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.17s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.15s
+Build styles took 0.02s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.05s
+Prepare screens took 0.15s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.14s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 688.94s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.26s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.18s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.10s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.10s
+Prepare screens took 0.15s
+Save pyanalysis. took 0.07s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.16s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 698.41s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.21s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.12s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.09s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.04s
+Prepare screens took 0.17s
+Save pyanalysis. took 0.10s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.19s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script_test.rpy", line 16, in script
+    call screen baduk
+  File "renpy/ast.py", line 2015, in execute
+    self.call("execute")
+  File "renpy/ast.py", line 2003, in call
+    return renpy.statements.call(method, parsed, *args, **kwargs)
+  File "renpy/statements.py", line 278, in call
+    return method(parsed, *args, **kwargs)
+  File "renpy/common/000statements.rpy", line 569, in execute_call_screen
+    store._return = renpy.call_screen(name, *args, **kwargs)
+  File "renpy/exports.py", line 3136, in call_screen
+    rv = renpy.ui.interact(mouse="screen", type="screen", roll_forward=roll_forward)
+  File "renpy/ui.py", line 298, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "renpy/display/core.py", line 3325, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
+  File "renpy/display/core.py", line 3737, in interact_core
+    root_widget.visit_all(lambda i : i.per_interact())
+  File "renpy/display/core.py", line 568, in visit_all
+    d.visit_all(callback, seen)
+  File "renpy/display/core.py", line 568, in visit_all
+    d.visit_all(callback, seen)
+  File "renpy/display/core.py", line 568, in visit_all
+    d.visit_all(callback, seen)
+  File "renpy/display/screen.py", line 436, in visit_all
+    callback(self)
+  File "renpy/display/core.py", line 3737, in <lambda>
+    root_widget.visit_all(lambda i : i.per_interact())
+  File "renpy/display/screen.py", line 447, in per_interact
+    self.update()
+  File "renpy/display/screen.py", line 637, in update
+    self.screen.function(**self.scope)
+  File "game/baduk.rpy", line 33, in execute
+    screen baduk():
+  File "game/baduk.rpy", line 33, in execute
+    screen baduk():
+  File "game/baduk.rpy", line 35, in execute
+    frame:
+  File "game/baduk.rpy", line 51, in execute
+    vbox:
+  File "game/baduk.rpy", line 57, in execute
+    grid 19 19:
+  File "game/baduk.rpy", line 66, in execute
+    for i in range(rows):
+  File "game/baduk.rpy", line 67, in execute
+    for j in range(cols):
+  File "game/baduk.rpy", line 68, in execute
+    imagebutton auto:
+  File "game/baduk.rpy", line 68, in keywords
+    imagebutton auto:
+  File "game/baduk.rpy", line 69, in <module>
+    idle rock_white
+NameError: name 'rock_white' is not defined
+
+While running game code:
+  File "game/script_test.rpy", line 16, in script
+    call screen baduk
+  File "renpy/common/000statements.rpy", line 569, in execute_call_screen
+    store._return = renpy.call_screen(name, *args, **kwargs)
+  File "game/baduk.rpy", line 33, in execute
+    screen baduk():
+  File "game/baduk.rpy", line 33, in execute
+    screen baduk():
+  File "game/baduk.rpy", line 35, in execute
+    frame:
+  File "game/baduk.rpy", line 51, in execute
+    vbox:
+  File "game/baduk.rpy", line 57, in execute
+    grid 19 19:
+  File "game/baduk.rpy", line 66, in execute
+    for i in range(rows):
+  File "game/baduk.rpy", line 67, in execute
+    for j in range(cols):
+  File "game/baduk.rpy", line 68, in execute
+    imagebutton auto:
+  File "game/baduk.rpy", line 68, in keywords
+    imagebutton auto:
+  File "game/baduk.rpy", line 69, in <module>
+    idle rock_white
+NameError: name 'rock_white' is not defined
+Resetting cache.
+Bootstrap to the start of init.init took 706.31s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.22s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.17s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.20s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.06s
+Prepare screens took 0.31s
+Save pyanalysis. took 0.13s
+Save bytecode. took 0.06s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.19s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 744.52s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.22s
+Loading save slot metadata. took 0.04s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.13s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.09s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.05s
+Prepare screens took 0.15s
+Save pyanalysis. took 0.06s
+Save bytecode. took 0.03s
+Running _start took 0.01s
+Performance test:
+Interface start took 0.21s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 761.53s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.32s
+Loading save slot metadata. took 0.04s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.06s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.09s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.17s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.16s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.05s
+Prepare screens took 0.13s
+Save pyanalysis. took 0.08s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.18s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 774.09s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.26s
+Loading save slot metadata. took 0.04s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.10s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.09s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.05s
+Prepare screens took 0.13s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.13s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 828.84s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.81s
+Loading save slot metadata. took 0.06s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.21s
+Loading analysis data took 0.08s
+Analyze and compile ATL took 0.03s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.26s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.17s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.12s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.12s
+Prepare screens took 0.17s
+Save pyanalysis. took 0.09s
+Save bytecode. took 0.04s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.16s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 891.09s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.20s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.10s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.10s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.05s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.07s
+Save bytecode. took 0.04s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.17s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 902.01s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.24s
+Loading save slot metadata. took 0.04s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.15s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.10s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.05s
+Prepare screens took 0.17s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.17s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 912.97s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.21s
+Loading save slot metadata. took 0.04s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.10s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.12s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.08s
+Prepare screens took 0.15s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.16s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 929.93s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.21s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.10s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.11s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.06s
+Prepare screens took 0.22s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.17s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 934.85s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.20s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.10s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.12s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.06s
+Prepare screens took 0.13s
+Save pyanalysis. took 0.10s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.16s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 944.27s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.22s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.14s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.13s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.07s
+Prepare screens took 0.19s
+Save pyanalysis. took 0.08s
+Save bytecode. took 0.05s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.29s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 959.79s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.20s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.10s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.13s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.06s
+Prepare screens took 0.14s
+Save pyanalysis. took 0.06s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.15s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 969.22s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.21s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.09s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.14s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.05s
+Prepare screens took 0.16s
+Save pyanalysis. took 0.07s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.21s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 977.14s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.24s
+Loading save slot metadata. took 0.05s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.07s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.13s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.13s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.05s
+Prepare screens took 0.15s
+Save pyanalysis. took 0.07s
+Save bytecode. took 0.04s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.15s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 979.01s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.03s
+Loading script took 0.23s
+Loading save slot metadata. took 0.04s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.09s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.09s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.10s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.06s
+Prepare screens took 0.21s
+Save pyanalysis. took 0.07s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.15s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 992.95s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.19s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.10s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.10s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.05s
+Prepare screens took 0.15s
+Save pyanalysis. took 0.06s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.15s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1000.90s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.20s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.11s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.10s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.11s
+Prepare screens took 0.15s
+Save pyanalysis. took 0.06s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.16s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1011.81s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.20s
+Loading save slot metadata. took 0.04s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.07s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.14s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.09s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.06s
+Prepare screens took 0.14s
+Save pyanalysis. took 0.06s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.15s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1031.78s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.19s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.13s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.09s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.05s
+Prepare screens took 0.14s
+Save pyanalysis. took 0.06s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.15s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1044.26s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.20s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.10s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.11s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.04s
+Prepare screens took 0.14s
+Save pyanalysis. took 0.07s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.15s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1055.22s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.21s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.10s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.09s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.04s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.07s
+Save bytecode. took 0.03s
+Running _start took 0.01s
+Performance test:
+Interface start took 0.17s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1084.29s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.19s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.11s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.08s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.06s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.09s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.17s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1108.78s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.21s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.11s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.09s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.07s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.05s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.15s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1118.22s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.20s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.10s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.09s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.04s
+Prepare screens took 0.14s
+Save pyanalysis. took 0.06s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.16s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1130.66s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.19s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.10s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.10s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.07s
+Prepare screens took 0.14s
+Save pyanalysis. took 0.08s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.18s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1140.11s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.26s
+Loading save slot metadata. took 0.05s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.12s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.09s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.04s
+Prepare screens took 0.12s
+Save pyanalysis. took 0.05s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.14s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
 Maximum texture size: 4096x4096
 Cleaning stores took 0.00s
 Init translation took 0.00s
 Build styles took 0.01s
-Load screen analysis took 0.03s
+Load screen analysis took 0.02s
 Analyze screens took 0.00s
 Prepare screens took 0.00s
 Running _start took 0.00s
+Resetting cache.
+Bootstrap to the start of init.init took 1165.97s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.20s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.14s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.11s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.04s
+Prepare screens took 0.13s
+Save pyanalysis. took 0.06s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.18s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1175.28s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.25s
+Loading save slot metadata. took 0.05s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.15s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.10s
+Build styles took 0.01s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.15s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Resetting cache.
+Bootstrap to the start of init.init took 1208.73s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.21s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.11s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.10s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.05s
+Prepare screens took 0.12s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.13s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1286.27s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.04s
+Loading script took 0.39s
+Loading save slot metadata. took 0.08s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.08s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.12s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.12s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.12s
+Prepare screens took 0.16s
+Save pyanalysis. took 0.06s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.16s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1292.77s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.26s
+Loading save slot metadata. took 0.04s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.06s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.10s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.13s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.12s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.09s
+Prepare screens took 0.12s
+Save pyanalysis. took 0.09s
+Save bytecode. took 0.04s
+Running _start took 0.01s
+Performance test:
+Interface start took 0.17s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1303.77s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.38s
+Loading save slot metadata. took 0.06s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.08s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.12s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.14s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.05s
+Prepare screens took 0.14s
+Save pyanalysis. took 0.07s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.16s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1314.76s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.21s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.11s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.11s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.05s
+Prepare screens took 0.14s
+Save pyanalysis. took 0.06s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.17s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1322.68s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.21s
+Loading save slot metadata. took 0.04s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.06s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.12s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.13s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.06s
+Prepare screens took 0.18s
+Save pyanalysis. took 0.08s
+Save bytecode. took 0.04s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.18s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1332.24s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.29s
+Loading save slot metadata. took 0.04s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.10s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.11s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.06s
+Prepare screens took 0.12s
+Save pyanalysis. took 0.07s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.14s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1399.12s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.24s
+Loading save slot metadata. took 0.10s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.14s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.08s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.10s
+Prepare screens took 0.17s
+Save pyanalysis. took 0.15s
+Save bytecode. took 0.05s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.22s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1402.63s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.03s
+Loading script took 0.22s
+Loading save slot metadata. took 0.04s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.08s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.14s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.10s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.11s
+Prepare screens took 0.20s
+Save pyanalysis. took 0.07s
+Save bytecode. took 0.05s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.27s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1476.90s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.22s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.13s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.10s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.15s
+Prepare screens took 0.13s
+Save pyanalysis. took 0.08s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.24s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1501.41s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.19s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.11s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.10s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.04s
+Prepare screens took 0.14s
+Save pyanalysis. took 0.07s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.15s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1507.84s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.19s
+Loading save slot metadata. took 0.04s
+Loading persistent took 0.00s
+
+File "game/baduk.rpy", line 61: keyword argument u'xalign' appears more than once in a vbox statement.
+    xalign 0.5
+          ^
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Interface start took 0.22s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1512.56s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.02s
+Loading script took 0.25s
+Loading save slot metadata. took 0.04s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.11s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.12s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.15s
+Build styles took 0.01s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.16s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.18s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1529.56s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.27s
+Loading save slot metadata. took 0.04s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.07s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.15s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.14s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.04s
+Prepare screens took 0.12s
+Save pyanalysis. took 0.06s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.16s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1542.07s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.21s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.13s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.11s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.05s
+Prepare screens took 0.15s
+Save pyanalysis. took 0.08s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.17s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1550.01s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.20s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.13s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.11s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.07s
+Prepare screens took 0.14s
+Save pyanalysis. took 0.07s
+Save bytecode. took 0.04s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.14s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1562.39s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.36s
+Loading save slot metadata. took 0.07s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.13s
+Loading analysis data took 0.06s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.10s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.18s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.14s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.05s
+Save screen analysis took 0.08s
+Prepare screens took 0.17s
+Save pyanalysis. took 0.08s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.18s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1568.93s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.38s
+Loading save slot metadata. took 0.10s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.11s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.10s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.23s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.19s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.05s
+Save screen analysis took 0.09s
+Prepare screens took 0.21s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.06s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.17s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1594.95s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.26s
+Loading save slot metadata. took 0.08s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.13s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.11s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.05s
+Prepare screens took 0.14s
+Save pyanalysis. took 0.06s
+Save bytecode. took 0.04s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.20s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.02s
+Analyze screens took 0.01s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Resetting cache.
+Bootstrap to the start of init.init took 1643.42s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.21s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.08s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.12s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.05s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.06s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.14s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script_test.rpy", line 16, in script
+    call screen baduk
+  File "renpy/ast.py", line 2015, in execute
+    self.call("execute")
+  File "renpy/ast.py", line 2003, in call
+    return renpy.statements.call(method, parsed, *args, **kwargs)
+  File "renpy/statements.py", line 278, in call
+    return method(parsed, *args, **kwargs)
+  File "renpy/common/000statements.rpy", line 569, in execute_call_screen
+    store._return = renpy.call_screen(name, *args, **kwargs)
+  File "renpy/exports.py", line 3136, in call_screen
+    rv = renpy.ui.interact(mouse="screen", type="screen", roll_forward=roll_forward)
+  File "renpy/ui.py", line 298, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "renpy/display/core.py", line 3325, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
+  File "renpy/display/core.py", line 3737, in interact_core
+    root_widget.visit_all(lambda i : i.per_interact())
+  File "renpy/display/core.py", line 568, in visit_all
+    d.visit_all(callback, seen)
+  File "renpy/display/core.py", line 568, in visit_all
+    d.visit_all(callback, seen)
+  File "renpy/display/core.py", line 568, in visit_all
+    d.visit_all(callback, seen)
+  File "renpy/display/screen.py", line 436, in visit_all
+    callback(self)
+  File "renpy/display/core.py", line 3737, in <lambda>
+    root_widget.visit_all(lambda i : i.per_interact())
+  File "renpy/display/screen.py", line 447, in per_interact
+    self.update()
+  File "renpy/display/screen.py", line 637, in update
+    self.screen.function(**self.scope)
+  File "game/baduk.rpy", line 33, in execute
+    screen baduk():
+  File "game/baduk.rpy", line 33, in execute
+    screen baduk():
+  File "game/baduk.rpy", line 35, in execute
+    frame:
+  File "game/baduk.rpy", line 51, in execute
+    vbox:
+  File "game/baduk.rpy", line 57, in execute
+    vbox:
+  File "game/baduk.rpy", line 63, in execute
+    grid 19 19:
+  File "game/baduk.rpy", line 66, in execute
+    for i in range(rows):
+  File "game/baduk.rpy", line 67, in execute
+    for j in range(cols):
+  File "game/baduk.rpy", line 68, in execute
+    imagebutton:
+  File "renpy/ui.py", line 951, in _imagebutton
+    idle = choice(idle, idle_image, "idle", required=True)
+  File "renpy/ui.py", line 947, in choice
+    raise Exception("Imagebutton does not have a %s image." % (name,))
+Exception: Imagebutton does not have a idle image.
+
+While running game code:
+  File "game/script_test.rpy", line 16, in script
+    call screen baduk
+  File "renpy/common/000statements.rpy", line 569, in execute_call_screen
+    store._return = renpy.call_screen(name, *args, **kwargs)
+  File "game/baduk.rpy", line 33, in execute
+    screen baduk():
+  File "game/baduk.rpy", line 33, in execute
+    screen baduk():
+  File "game/baduk.rpy", line 35, in execute
+    frame:
+  File "game/baduk.rpy", line 51, in execute
+    vbox:
+  File "game/baduk.rpy", line 57, in execute
+    vbox:
+  File "game/baduk.rpy", line 63, in execute
+    grid 19 19:
+  File "game/baduk.rpy", line 66, in execute
+    for i in range(rows):
+  File "game/baduk.rpy", line 67, in execute
+    for j in range(cols):
+  File "game/baduk.rpy", line 68, in execute
+    imagebutton:
+Exception: Imagebutton does not have a idle image.
+Resetting cache.
+Bootstrap to the start of init.init took 1669.37s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.03s
+Loading script took 0.22s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.11s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.09s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.05s
+Prepare screens took 0.12s
+Save pyanalysis. took 0.06s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.16s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1689.39s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.18s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.10s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.09s
+Build styles took 0.01s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.17s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1713.93s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.21s
+Loading save slot metadata. took 0.05s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.07s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.15s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.09s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.07s
+Prepare screens took 0.17s
+Save pyanalysis. took 0.11s
+Save bytecode. took 0.03s
+Running _start took 0.01s
+Performance test:
+Interface start took 0.16s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script_test.rpy", line 16, in script
+    call screen baduk
+  File "renpy/ast.py", line 2015, in execute
+    self.call("execute")
+  File "renpy/ast.py", line 2003, in call
+    return renpy.statements.call(method, parsed, *args, **kwargs)
+  File "renpy/statements.py", line 278, in call
+    return method(parsed, *args, **kwargs)
+  File "renpy/common/000statements.rpy", line 569, in execute_call_screen
+    store._return = renpy.call_screen(name, *args, **kwargs)
+  File "renpy/exports.py", line 3136, in call_screen
+    rv = renpy.ui.interact(mouse="screen", type="screen", roll_forward=roll_forward)
+  File "renpy/ui.py", line 298, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "renpy/display/core.py", line 3325, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
+  File "renpy/display/core.py", line 3737, in interact_core
+    root_widget.visit_all(lambda i : i.per_interact())
+  File "renpy/display/core.py", line 568, in visit_all
+    d.visit_all(callback, seen)
+  File "renpy/display/core.py", line 568, in visit_all
+    d.visit_all(callback, seen)
+  File "renpy/display/core.py", line 568, in visit_all
+    d.visit_all(callback, seen)
+  File "renpy/display/screen.py", line 436, in visit_all
+    callback(self)
+  File "renpy/display/core.py", line 3737, in <lambda>
+    root_widget.visit_all(lambda i : i.per_interact())
+  File "renpy/display/screen.py", line 447, in per_interact
+    self.update()
+  File "renpy/display/screen.py", line 637, in update
+    self.screen.function(**self.scope)
+  File "game/baduk.rpy", line 33, in execute
+    screen baduk():
+  File "game/baduk.rpy", line 33, in execute
+    screen baduk():
+  File "game/baduk.rpy", line 35, in execute
+    frame:
+  File "game/baduk.rpy", line 51, in execute
+    vbox:
+  File "game/baduk.rpy", line 57, in execute
+    vbox:
+  File "game/baduk.rpy", line 63, in execute
+    grid 19 19:
+  File "game/baduk.rpy", line 66, in execute
+    for i in range(rows):
+  File "game/baduk.rpy", line 67, in execute
+    for j in range(cols):
+  File "game/baduk.rpy", line 68, in execute
+    imagebutton:
+  File "renpy/ui.py", line 951, in _imagebutton
+    idle = choice(idle, idle_image, "idle", required=True)
+  File "renpy/ui.py", line 947, in choice
+    raise Exception("Imagebutton does not have a %s image." % (name,))
+Exception: Imagebutton does not have a idle image.
+
+While running game code:
+  File "game/script_test.rpy", line 16, in script
+    call screen baduk
+  File "renpy/common/000statements.rpy", line 569, in execute_call_screen
+    store._return = renpy.call_screen(name, *args, **kwargs)
+  File "game/baduk.rpy", line 33, in execute
+    screen baduk():
+  File "game/baduk.rpy", line 33, in execute
+    screen baduk():
+  File "game/baduk.rpy", line 35, in execute
+    frame:
+  File "game/baduk.rpy", line 51, in execute
+    vbox:
+  File "game/baduk.rpy", line 57, in execute
+    vbox:
+  File "game/baduk.rpy", line 63, in execute
+    grid 19 19:
+  File "game/baduk.rpy", line 66, in execute
+    for i in range(rows):
+  File "game/baduk.rpy", line 67, in execute
+    for j in range(cols):
+  File "game/baduk.rpy", line 68, in execute
+    imagebutton:
+Exception: Imagebutton does not have a idle image.
+Resetting cache.
+Bootstrap to the start of init.init took 1720.33s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.23s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.11s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.10s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.04s
+Prepare screens took 0.16s
+Save pyanalysis. took 0.05s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.19s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1725.26s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.21s
+Loading save slot metadata. took 0.04s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.06s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.18s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.15s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.05s
+Prepare screens took 0.17s
+Save pyanalysis. took 0.07s
+Save bytecode. took 0.04s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.15s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1733.22s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.27s
+Loading save slot metadata. took 0.04s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.06s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.17s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.12s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.04s
+Prepare screens took 0.13s
+Save pyanalysis. took 0.05s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.17s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1739.64s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.20s
+Loading save slot metadata. took 0.04s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.11s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.10s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.04s
+Prepare screens took 0.14s
+Save pyanalysis. took 0.06s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.15s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Resetting cache.
+Bootstrap to the start of init.init took 1762.53s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.30s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.11s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.13s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.11s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.05s
+Prepare screens took 0.18s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.15s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1780.94s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.28s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.15s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.11s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.08s
+Prepare screens took 0.22s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.05s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.20s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1793.23s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.21s
+Loading save slot metadata. took 0.04s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.13s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.14s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.06s
+Save screen analysis took 0.10s
+Prepare screens took 0.15s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.17s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1798.06s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.21s
+Loading save slot metadata. took 0.04s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.13s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.09s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.04s
+Prepare screens took 0.18s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.15s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1805.84s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.21s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.10s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.09s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.06s
+Prepare screens took 0.14s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.13s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1813.62s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.22s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.11s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.10s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.05s
+Prepare screens took 0.15s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.22s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1835.01s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.21s
+Loading save slot metadata. took 0.04s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.10s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.11s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.09s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.04s
+Prepare screens took 0.15s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.22s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1842.82s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.18s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.08s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.15s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.13s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.06s
+Prepare screens took 0.19s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.22s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Resetting cache.
+Bootstrap to the start of init.init took 1858.20s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.24s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.15s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.14s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.04s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.17s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1861.51s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.03s
+Loading script took 0.21s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.15s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.12s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.08s
+Prepare screens took 0.17s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.16s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1867.81s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.21s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.20s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.13s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.08s
+Prepare screens took 0.18s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.16s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script_test.rpy", line 24, in script
+    jump round2R
+  File "renpy/ast.py", line 1757, in execute
+    rv = renpy.game.script.lookup(target)
+  File "renpy/script.py", line 918, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'round2R'.
+
+While running game code:
+  File "game/script_test.rpy", line 24, in script
+    jump round2R
+ScriptError: could not find label 'round2R'.
+Resetting cache.
+Bootstrap to the start of init.init took 1880.30s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.21s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.10s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.09s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.04s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.04s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.13s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Resetting cache.
+Bootstrap to the start of init.init took 1922.99s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.20s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.15s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.08s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.05s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.15s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Resetting cache.
+Bootstrap to the start of init.init took 1940.00s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.20s
+Loading save slot metadata. took 0.04s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.13s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.11s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.01s
+Save screen analysis took 0.00s
+Prepare screens took 0.15s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.17s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Resetting cache.
+Bootstrap to the start of init.init took 1967.55s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.18s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.11s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.11s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.15s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Resetting cache.
+Bootstrap to the start of init.init took 2160.89s
+Early init took 0.00s
+Loader init took 0.07s
+Loading error handling took 0.03s
+Loading script took 0.36s
+Loading save slot metadata. took 0.05s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.07s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\82103\\AppData\\Roaming/RenPy/backups\\Shoot-Tomorrow':
+Dump and make backups. took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.17s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.30s
+Build styles took 0.02s
+Load screen analysis took 0.00s
+Analyze screens took 0.08s
+Save screen analysis took 0.14s
+Prepare screens took 0.20s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.20s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Plus Graphics'
+Version: '4.6.0 - Build 30.0.100.9836'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1275, 717) drawable=(1275, 717)
+Maximum texture size: 4096x4096
