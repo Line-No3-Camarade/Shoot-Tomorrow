@@ -87,6 +87,10 @@ screen baduk():
                                 
                                 action Function(ToggleButton, i, j)
 
+                                if i == 0 and j == 0:
+                                    idle "rock_black"
+                                    action [SetVariable("co", (i, j)), Return()]
+
                                 
                                 # if renpy.get_screen("baduk").get(button_id).button_state:
                                 #     idle "rock_white"

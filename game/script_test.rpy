@@ -29,4 +29,5 @@ label round1:
 label round2:
     kog "계속하지."
     jh "…예."
+    call screen baduk
 
