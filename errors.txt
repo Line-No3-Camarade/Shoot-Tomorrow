@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script_test.rpy", line 38: expected statement.
-    action Function(clear_states)
-                   ^
+File "game/script.rpy", line 43: expected statement.
+    efine dnarrator = Character(None, what_color="#e6e6e6")
+                    ^
 
 Ren'Py Version: Ren'Py 7.4.11.2266
-Fri Jun 21 18:14:45 2024
+Sun Jun 23 17:32:29 2024

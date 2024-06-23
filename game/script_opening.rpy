@@ -29,8 +29,8 @@ label script_opening:
     "창호 바른 미닫이문이 양옆으로 열리며 때늦은 햇살이 쏟아져 들어왔다."
     "소매 걷은 팔 위로 온기와 서늘한 바람이 겹쳤다."
 
-    show jh shirt_hurt_left at right
-    show kog shirt_right at left
+    show jh_left shirt_hurt at right
+    show kog_right at left
 
     "옥균은 빠르지 않은 걸음으로 방에 들어섰다."
     "홍종우라는 청년과 눈이 마주친다."
@@ -56,14 +56,17 @@ label script_opening:
     "꿰뚫을 것 같은 눈빛이 청년을 향했다."
     "옥균은 천천히 홍종우에게 다가가며 헛웃음을 흘렸다."
 
+    
+    show kog_right -neutral smile
     kog "…홍종우?"
     "홍종우는 자세를 고쳐 잡으며 대답했다."
+    show jh_left -hard soft
     hjw_q "…예, 선생님."
     "{color=#F53D3D}천지天地의 명운{/color}을 바꾼 만남이었다."
 
     scene black with fade
-    show jh shirt_hurt_left at right
-    show kog shirt_right at left
+    show jh_left at right
+    show kog_right at left
 
     "캐릭터를 선택해 인생을 살아 보세요."
     "한 캐릭터 이야기의 끝을 확인하기 전까지 다른 캐릭터의 삶은 확인할 수 없습니다."
@@ -73,9 +76,9 @@ label script_opening:
 
     menu:
         "김옥균":
+            scene black
             play sound "audio/Handling_Trimmed.mp3"
-            hide jh
-            show kog shirt_right_color at center
+            show kog_color_right shirt at center
             "김옥균을 선택하셨습니다."
             $ kog_selected = 1
             $ jh_selected = 0
@@ -85,9 +88,9 @@ label script_opening:
             jump script_kog
         
         "한정훈":
+            scene black
             play sound "audio/Handling_Trimmed.mp3"
-            hide kog
-            show jh shirt_hurt_left_color at center
+            show jh_color_left shirt_hurt at center
             "한정훈을 선택하셨습니다."
             $ jh_selected = 1
             $ kog_selected = 0
