@@ -228,43 +228,43 @@ image jh_smile_color_right = im.FactorScale(im.Flip("character/mini-smile.png", 
 ### gray
 ## default
 # outfit
-image jh_jacekt_base_gray = im.Grayscale("character/mini-standing-jacket1-x.png")
-image jh_shirt_long_gray = im.Grayscale("character/mini-standing-shirt1-x.png")
-image jh_shirt_hurt_gray = im.Grayscale("character/mini-standing-shirt2-x.png")
-image jh_shirt_short_gray = im.Grayscale("character/mini-standing-shirt3-x.png")
+image jh_jacekt_base_gray = im.FactorScale(im.Grayscale("character/mini-standing-jacket1-x.png"), zoom_out)
+image jh_shirt_long_gray = im.FactorScale(im.Grayscale("character/mini-standing-shirt1-x.png"), zoom_out)
+image jh_shirt_hurt_gray = im.FactorScale(im.Grayscale("character/mini-standing-shirt2-x.png"), zoom_out)
+image jh_shirt_short_gray = im.FactorScale(im.Grayscale("character/mini-standing-shirt3-x.png"), zoom_out)
 
 # face
-image jh_hard_gray = im.Grayscale("character/mini-default1.png")
-image jh_soft_gray = im.Grayscale("character/mini-default2.png")
-image jh_smile_gray = im.Grayscale("character/mini-smile.png")
+image jh_hard_gray = im.FactorScale(im.Grayscale("character/mini-default1.png"), zoom_out)
+image jh_soft_gray = im.FactorScale(im.Grayscale("character/mini-default2.png"), zoom_out)
+image jh_smile_gray = im.FactorScale(im.Grayscale("character/mini-smile.png"), zoom_out)
 
 
 
 ## left
 # outfit
-image jh_jacekt_base_gray_left = im.Grayscale("character/mini-standing-jacket1-x.png")
-image jh_shirt_long_gray_left = im.Grayscale("character/mini-standing-shirt1-x.png")
-image jh_shirt_hurt_gray_left = im.Grayscale("character/mini-standing-shirt2-x.png")
-image jh_shirt_short_gray_left = im.Grayscale("character/mini-standing-shirt3-x.png")
+image jh_jacekt_base_gray_left = im.FactorScale(im.Grayscale("character/mini-standing-jacket1-x.png"), zoom_out)
+image jh_shirt_long_gray_left = im.FactorScale(im.Grayscale("character/mini-standing-shirt1-x.png"), zoom_out)
+image jh_shirt_hurt_gray_left = im.FactorScale(im.Grayscale("character/mini-standing-shirt2-x.png"), zoom_out)
+image jh_shirt_short_gray_left = im.FactorScale(im.Grayscale("character/mini-standing-shirt3-x.png"), zoom_out)
 
 # face
-image jh_hard_gray_left = im.Grayscale("character/mini-default1.png")
-image jh_soft_gray_left = im.Grayscale("character/mini-default2.png")
-image jh_smile_gray_left = im.Grayscale("character/mini-smile.png")
+image jh_hard_gray_left = im.FactorScale(im.Grayscale("character/mini-default1.png"), zoom_out)
+image jh_soft_gray_left = im.FactorScale(im.Grayscale("character/mini-default2.png"), zoom_out)
+image jh_smile_gray_left = im.FactorScale(im.Grayscale("character/mini-smile.png"), zoom_out)
 
 
 
 ## right
 # outfit
-image jh_jacekt_base_gray_right = im.Grayscale(im.Flip("character/mini-standing-jacket1-x.png", horizontal=True))
-image jh_shirt_long_gray_right = im.Grayscale(im.Flip("character/mini-standing-shirt1-x.png", horizontal=True))
-image jh_shirt_hurt_gray_right = im.Grayscale(im.Flip("character/mini-standing-shirt2-x.png", horizontal=True))
-image jh_shirt_short_gray_right = im.Grayscale(im.Flip("character/mini-standing-shirt3-x.png", horizontal=True))
+image jh_jacekt_base_gray_right = im.FactorScale(im.Grayscale(im.Flip("character/mini-standing-jacket1-x.png", horizontal=True)), zoom_out)
+image jh_shirt_long_gray_right = im.FactorScale(im.Grayscale(im.Flip("character/mini-standing-shirt1-x.png", horizontal=True)), zoom_out)
+image jh_shirt_hurt_gray_right = im.FactorScale(im.Grayscale(im.Flip("character/mini-standing-shirt2-x.png", horizontal=True)), zoom_out)
+image jh_shirt_short_gray_right = im.FactorScale(im.Grayscale(im.Flip("character/mini-standing-shirt3-x.png", horizontal=True)), zoom_out)
 
 # face
-image jh_hard_gray_right = im.Grayscale(im.Flip("character/mini-default1.png", horizontal=True))
-image jh_soft_gray_right = im.Grayscale(im.Flip("character/mini-default2.png", horizontal=True))
-image jh_smile_gray_right = im.Grayscale(im.Flip("character/mini-smile.png", horizontal=True))
+image jh_hard_gray_right = im.FactorScale(im.Grayscale(im.Flip("character/mini-default1.png", horizontal=True)), zoom_out)
+image jh_soft_gray_right = im.FactorScale(im.Grayscale(im.Flip("character/mini-default2.png", horizontal=True)), zoom_out)
+image jh_smile_gray_right = im.FactorScale(im.Grayscale(im.Flip("character/mini-smile.png", horizontal=True)), zoom_out)
 
 
 
@@ -406,8 +406,6 @@ layeredimage jh_color_right:
 
 
 layeredimage jh_gray:
-    zoom 0.75
-
     group outfit:
         attribute jacket:
             "jh_jacekt_base_gray"
@@ -430,8 +428,6 @@ layeredimage jh_gray:
 
 
 layeredimage jh_gray_left:
-    zoom 0.75
-    
     group outfit:
         attribute jacket:
             "jh_jacekt_base_gray_left"
@@ -454,8 +450,6 @@ layeredimage jh_gray_left:
 
 
 layeredimage jh_gray_right:
-    zoom 0.75
-    
     group outfit:
         attribute jacket:
             "jh_jacekt_base_gray_right"
@@ -626,40 +620,40 @@ image kog_angry_color_right = im.FactorScale(im.Flip("character/pil-angry.png", 
 ### gray
 ## default
 # outfit
-image kog_shirt_gray = im.Grayscale("character/pil-standing-shirt1-x.png")
-image kog_shirt_base_gray = im.Grayscale("character/pil-standing-shirt1-x.png")
+image kog_shirt_gray = im.FactorScale(im.Grayscale("character/pil-standing-shirt1-x.png"), zoom_out)
+image kog_shirt_base_gray = im.FactorScale(im.Grayscale("character/pil-standing-shirt1-x.png"), zoom_out)
 
 # face
-image kog_neutral_gray = im.Grayscale("character/pil-default.png")
-image kog_smile_gray = im.Grayscale("character/pil-smile.png")
-image kog_laugh_gray = im.Grayscale("character/pil-smile2.png")
-image kog_angry_gray = im.Grayscale("character/pil-angry.png")
+image kog_neutral_gray = im.FactorScale(im.Grayscale("character/pil-default.png"), zoom_out)
+image kog_smile_gray = im.FactorScale(im.Grayscale("character/pil-smile.png"), zoom_out)
+image kog_laugh_gray = im.FactorScale(im.Grayscale("character/pil-smile2.png"), zoom_out)
+image kog_angry_gray = im.FactorScale(im.Grayscale("character/pil-angry.png"), zoom_out)
 
 
 
 ## left
 # outfit
-image kog_shirt_gray_left = im.Grayscale("character/pil-standing-shirt1-x.png")
-image kog_shirt_base_gray_left = im.Grayscale("character/pil-standing-shirt1-x.png")
+image kog_shirt_gray_left = im.FactorScale(im.Grayscale("character/pil-standing-shirt1-x.png"), zoom_out)
+image kog_shirt_base_gray_left = im.FactorScale(im.Grayscale("character/pil-standing-shirt1-x.png"), zoom_out)
 
 # face
-image kog_neutral_gray_left = im.Grayscale("character/pil-default.png")
-image kog_smile_gray_left = im.Grayscale("character/pil-smile.png")
-image kog_laugh_gray_left = im.Grayscale("character/pil-smile2.png")
-image kog_angry_gray_left = im.Grayscale("character/pil-angry.png")
+image kog_neutral_gray_left = im.FactorScale(im.Grayscale("character/pil-default.png"), zoom_out)
+image kog_smile_gray_left = im.FactorScale(im.Grayscale("character/pil-smile.png"), zoom_out)
+image kog_laugh_gray_left = im.FactorScale(im.Grayscale("character/pil-smile2.png"), zoom_out)
+image kog_angry_gray_left = im.FactorScale(im.Grayscale("character/pil-angry.png"), zoom_out)
 
 
 
 ## right
 # outfit
-image kog_shirt_gray_right = im.Grayscale(im.Flip("character/pil-standing-shirt1-x.png", horizontal=True))
-image kog_shirt_base_gray_right = im.Grayscale(im.Flip("character/pil-standing-shirt1-x.png", horizontal=True))
+image kog_shirt_gray_right = im.FactorScale(im.Grayscale(im.Flip("character/pil-standing-shirt1-x.png", horizontal=True)), zoom_out)
+image kog_shirt_base_gray_right = im.FactorScale(im.Grayscale(im.Flip("character/pil-standing-shirt1-x.png", horizontal=True)), zoom_out)
 
 # face
-image kog_neutral_gray_right = im.Grayscale(im.Flip("character/pil-default.png", horizontal=True))
-image kog_smile_gray_right = im.Grayscale(im.Flip("character/pil-smile.png", horizontal=True))
-image kog_laugh_gray_right = im.Grayscale(im.Flip("character/pil-smile2.png", horizontal=True))
-image kog_angry_gray_right = im.Grayscale(im.Flip("character/pil-angry.png", horizontal=True))
+image kog_neutral_gray_right = im.FactorScale(im.Grayscale(im.Flip("character/pil-default.png", horizontal=True)), zoom_out)
+image kog_smile_gray_right = im.FactorScale(im.Grayscale(im.Flip("character/pil-smile.png", horizontal=True)), zoom_out)
+image kog_laugh_gray_right = im.FactorScale(im.Grayscale(im.Flip("character/pil-smile2.png", horizontal=True)), zoom_out)
+image kog_angry_gray_right = im.FactorScale(im.Grayscale(im.Flip("character/pil-angry.png", horizontal=True)), zoom_out)
 
 
 
@@ -765,8 +759,6 @@ layeredimage kog_color_right:
 
 
 layeredimage kog_gray:
-    zoom 0.75
-
     group outfit:
         attribute shirt default:
             "kog_shirt_gray"
@@ -783,8 +775,6 @@ layeredimage kog_gray:
 
 
 layeredimage kog_gray_left:
-    zoom 0.75
-    
     group outfit:
         attribute shirt default:
             "kog_shirt_gray_left"
@@ -801,8 +791,6 @@ layeredimage kog_gray_left:
 
 
 layeredimage kog_gray_right:
-    zoom 0.75
-    
     group outfit:
         attribute shirt default:
             "kog_shirt_gray_right"
