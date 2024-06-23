@@ -57,7 +57,7 @@ label script_opening:
     "옥균은 천천히 홍종우에게 다가가며 헛웃음을 흘렸다."
 
     
-    show kog_right -neutral smile
+    show kog_right
     kog "…홍종우?"
     "홍종우는 자세를 고쳐 잡으며 대답했다."
     show jh_left -hard soft
