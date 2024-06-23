@@ -1,10 +1,47 @@
 #################################################################################################################
 ###### 게임 스크립트 설정 ######
 #################################################################################################################
+# 파이썬 구문
+init python:
+    pass
+
+
+# 텍스트 속도
 default preferences.text_cps = 30
 
+
+# 스탠딩 일러 기본/확대 크기
 define zoom_in = 0.78
 define zoom_out = 0.75
+
+
+# 색 설정
+define highlight = "#F53D3D"
+
+
+# 자간 설정
+init -2:
+    style nvl_dialogue:
+        line_spacing 10
+    style say_dialogue:
+        line_spacing 10 
+
+
+# 변수
+default jh_selected = 0
+default kog_selected = 0
+
+
+# 되감기 취소
+define config.hard_rollback_limit = 0
+
+
+screen remove_rollback():
+    key "K_PAGEUP" action NullAction
+    key "K_AC_BACK" action NullAction
+    key "mousedown_4" action NullAction
+    key "joy_rollback" action NullAction
+
 
 
 
@@ -804,46 +841,6 @@ layeredimage kog_gray_right:
             "kog_laugh_gray_right"
         attribute angry:
             "kog_angry_gray_right"
-
-
-
-
-
-
-#################################################################################################################
-#### 기타 설정 ####
-#################################################################################################################
-# 색 설정
-define highlight = "#FF8C00"
-
-
-# 자간 설정
-init -2:
-    style nvl_dialogue:
-        line_spacing 10
-    style say_dialogue:
-        line_spacing 10 
-
-
-# 변수
-default jh_selected = 0
-default kog_selected = 0
-
-
-# 파이썬 구문
-init python:
-    pass
-
-
-# 되감기 취소
-define config.hard_rollback_limit = 0
-
-
-screen remove_rollback():
-    key "K_PAGEUP" action NullAction
-    key "K_AC_BACK" action NullAction
-    key "mousedown_4" action NullAction
-    key "joy_rollback" action NullAction
 
 
 

@@ -35,13 +35,14 @@ label script_opening:
     "옥균은 빠르지 않은 걸음으로 방에 들어섰다."
     "홍종우라는 청년과 눈이 마주친다."
     "닿은 시선이 서로 떨어지지 않는다."
-    "홍종우가 앞으로 나서서 옥균에게 {color=#F53D3D}서찰{/color}을 건넸다."
+    "홍종우가 앞으로 나서서 옥균에게 {color=[highlight]}서찰{/color}을 건넸다."
 
     hjw_q "선생께 긴히 전해드릴 것이 있어 왔습니다. 청국대신 이홍장의 밀서입니다."
     kog "…이홍장?"
 
     "옥균은 서찰을 받아 펼쳤다."
-    "안에는 {color=#F53D3D}익숙한 필체{/color}로 간결한 전언이 적혀 있었다."
+    "안에는 {color=[highlight]}익숙한 필체{/color}로 간결한 전언이 적혀 있었다."
+
 
     show black
     centered "‘김옥균, 군과 더불어 어깨를 잡고 의논하여 동양 백년의 대계를 정하고자 한다.’" with fade
@@ -62,7 +63,9 @@ label script_opening:
     "홍종우는 자세를 고쳐 잡으며 대답했다."
     show jh_left -hard soft
     hjw_q "…예, 선생님."
-    "{color=#F53D3D}천지天地의 명운{/color}을 바꾼 만남이었다."
+    "{color=[highlight]}천지天地의 명운{/color}을 바꾼 만남이었다."
+
+
 
     scene black with fade
     show jh_left at right
@@ -71,6 +74,8 @@ label script_opening:
     "캐릭터를 선택해 인생을 살아 보세요."
     "한 캐릭터 이야기의 끝을 확인하기 전까지 다른 캐릭터의 삶은 확인할 수 없습니다."
 
+
+    ## 오프닝 선택이 끝나면 지속데이터에 저장 ##
     $ persistent.start = True
     $ persistent.start = False
 
