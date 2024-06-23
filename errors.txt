@@ -2,9 +2,17 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 43: expected statement.
-    efine dnarrator = Character(None, what_color="#e6e6e6")
-                    ^
+The label round1 is defined twice, at File "game/script_baduk_test.rpyc", line 20:
+&`c	´)ŽÆú‰LüÀì”[
+and File "game/script_test_baduk.rpy", line 20:
+&`c	´)ŽÆú‰LüÀì”[
+
+
+The label round2 is defined twice, at File "game/script_baduk_test.rpyc", line 34:
+
+and File "game/script_test_baduk.rpy", line 34:
+
+
 
 Ren'Py Version: Ren'Py 7.4.11.2266
-Sun Jun 23 17:32:29 2024
+Sun Jun 23 18:53:11 2024

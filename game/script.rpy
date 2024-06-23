@@ -854,8 +854,8 @@ layeredimage kog_gray_right:
 label start:
     show screen remove_rollback()
 
-    # jump script_test
-    jump script_opening
+    jump script_test_baduk
+    # jump script_opening
 
 
     # if not persistent.start:

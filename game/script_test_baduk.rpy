@@ -9,11 +9,11 @@ init python:
                 button_states[i][j] = False
         
 
-label script_baduk_test:
+label script_test_baduk:
     scene black
 
-    show jh shirt_hurt_left at right
-    show kog shirt_right at left
+    show jh_left shirt_hurt at right
+    show kog_right shirt at left
     
     jump round1
 
