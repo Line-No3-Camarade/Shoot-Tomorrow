@@ -1,36 +1,80 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "renpy/common/00keymap.rpy", line 469, in script
-    python hide:
-  File "renpy/common/00keymap.rpy", line 469, in <module>
-    python hide:
-  File "renpy/common/00keymap.rpy", line 488, in _execute_python_hide
-    renpy.save("_reload-1", "reload save game")
-AttributeError: 'NoneType' object has no attribute 'stores'
+  File "game/script_test_baduk.rpy", line 77, in script
+    call screen baduk
+  File "renpy/common/000statements.rpy", line 569, in execute_call_screen
+    store._return = renpy.call_screen(name, *args, **kwargs)
+  File "renpy/common/00action_other.rpy", line 537, in __call__
+    rv = self.callable(*self.args, **self.kwargs)
+  File "game/baduk.rpy", line 67, in count_exit
+    save_states()
+  File "game/baduk.rpy", line 46, in save_states
+    file = open("<baduk_board>.txt", 'w')
+IOError: [Errno 22] invalid mode ('w') or filename: u'<baduk_board>.txt'
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "renpy/common/00keymap.rpy", line 469, in script
-    python hide:
-  File "renpy/ast.py", line 928, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "renpy/python.py", line 2245, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "renpy/common/00keymap.rpy", line 469, in <module>
-    python hide:
-  File "renpy/common/00keymap.rpy", line 488, in _execute_python_hide
-    renpy.save("_reload-1", "reload save game")
-  File "renpy/loadsave.py", line 394, in save
-    roots = renpy.game.log.freeze(None)
-  File "renpy/python.py", line 2142, in freeze
-    self.complete(False)
-  File "renpy/python.py", line 1726, in complete
-    self.current.stores[name], self.current.delta_ebc[name] = sd.get_changes(begin)
-AttributeError: 'NoneType' object has no attribute 'stores'
+  File "game/script_test_baduk.rpy", line 77, in script
+    call screen baduk
+  File "renpy/ast.py", line 2015, in execute
+    self.call("execute")
+  File "renpy/ast.py", line 2003, in call
+    return renpy.statements.call(method, parsed, *args, **kwargs)
+  File "renpy/statements.py", line 278, in call
+    return method(parsed, *args, **kwargs)
+  File "renpy/common/000statements.rpy", line 569, in execute_call_screen
+    store._return = renpy.call_screen(name, *args, **kwargs)
+  File "renpy/exports.py", line 3136, in call_screen
+    rv = renpy.ui.interact(mouse="screen", type="screen", roll_forward=roll_forward)
+  File "renpy/ui.py", line 298, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "renpy/display/core.py", line 3325, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
+  File "renpy/display/core.py", line 4160, in interact_core
+    rv = root_widget.event(ev, x, y, 0)
+  File "renpy/display/layout.py", line 1102, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "renpy/display/layout.py", line 1102, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "renpy/display/layout.py", line 1102, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "renpy/display/screen.py", line 727, in event
+    rv = self.child.event(ev, x, y, st)
+  File "renpy/display/layout.py", line 1102, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "renpy/display/layout.py", line 1323, in event
+    rv = super(Window, self).event(ev, x, y, st)
+  File "renpy/display/layout.py", line 273, in event
+    rv = d.event(ev, x - xo, y - yo, st)
+  File "renpy/display/layout.py", line 1102, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "renpy/display/layout.py", line 1102, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "renpy/display/layout.py", line 1102, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "renpy/display/layout.py", line 273, in event
+    rv = d.event(ev, x - xo, y - yo, st)
+  File "renpy/display/behavior.py", line 983, in event
+    return handle_click(self.clicked)
+  File "renpy/display/behavior.py", line 918, in handle_click
+    rv = run(action)
+  File "renpy/display/behavior.py", line 323, in run
+    new_rv = run(i, *args, **kwargs)
+  File "renpy/display/behavior.py", line 330, in run
+    return action(*args, **kwargs)
+  File "renpy/common/00action_other.rpy", line 537, in __call__
+    rv = self.callable(*self.args, **self.kwargs)
+  File "game/baduk.rpy", line 67, in count_exit
+    save_states()
+  File "game/baduk.rpy", line 46, in save_states
+    file = open("<baduk_board>.txt", 'w')
+  File "renpy/compat/__init__.py", line 94, in compat_open
+    return python_open(*args, **kwargs)
+IOError: [Errno 22] invalid mode ('w') or filename: u'<baduk_board>.txt'
 
 Windows-10-10.0.22621
 Ren'Py 7.4.11.2266
 Shoot Tomorrow 1.0
-Sun Jun 23 18:52:52 2024
+Mon Jun 24 01:14:30 2024

@@ -204,13 +204,30 @@ style input:
 ## https://www.renpy.org/doc/html/screen_special.html#choice
 
 screen choice(items):
-    style_prefix "choice"
+    ## normal menu choice
+    if choice_flag == 0:
+        style_prefix "choice"
 
-    vbox:
-        for i in items:
-            textbutton i.caption action i.action
+        vbox:
+            for i in items:
+                textbutton i.caption action i.action
+    ## custom menu choice
+    # continue
+    elif choice_flag == 1:
+        style_prefix "continue"
+        vbox:
+            for i in items:
+                textbutton i.caption action i.action
+    # choicez
+    elif choice_flag == 2:
+        style_prefix "choicez"
+        vbox:
+            for i in items:
+                textbutton i.caption action i.action
 
 
+
+# normal menu choice
 style choice_vbox is vbox
 style choice_button is button
 style choice_button_text is button_text
@@ -227,6 +244,48 @@ style choice_button is default:
 
 style choice_button_text is default:
     properties gui.button_text_properties("choice_button")
+
+
+
+# custom menu choice
+style continue_vbox is vbox
+style continue_button is button
+style continue_button_text is button_text
+
+style continue_vbox:
+    xalign 0.5
+    yalign 0.9
+
+    spacing gui.choice_spacing
+
+style continue_button is default:
+    properties gui.button_properties("choice_button")
+    xsize 800
+
+style continue_button_text is default:
+    properties gui.button_text_properties("choice_button")
+
+
+
+# custom menu choice
+style choicez_vbox is vbox
+style choicez_button is button
+style choicez_button_text is button_text
+
+style choicez_vbox:
+    xalign 0.5
+    yalign 0.7
+    
+    spacing gui.choice_spacing
+
+style choicez_button is default:
+    idle_background "gui/button/custom_choice_idle_background.png"
+    hover_background "gui/button/custom_choice_hover_background.png"
+    properties gui.button_properties("choicez_button")
+    # Ridle_color "#7e7e7e"
+
+style choicez_button_text is default:
+    properties gui.button_text_properties("choicez_button")
 
 
 ## Quick Menu 스크린 ##############################################################
@@ -299,7 +358,7 @@ screen navigation():
 
             textbutton _("시작하기"):
                 hover_sound("audio/Handling_Trimmed.mp3")
-                activate_sound("audio/Gunfire_Trimmed.mp3")
+                # activate_sound("audio/Gunfire_Trimmed.mp3")
                 action Start()
 
             textbutton _("엔딩목록"):

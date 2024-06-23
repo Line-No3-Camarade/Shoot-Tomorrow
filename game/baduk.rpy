@@ -41,12 +41,30 @@ init python:
                 button_states[i][j] = False
     
 
+    def save_states():
+        num = 0
+        file = open(config.gamedir + "_baduk_board.txt", 'w')
+        
+        for i in range(rows):
+            for j in range(cols):
+                if button_states[i][j]:
+                    file.write(str(num) + ": (" + str(i) + ", " + str(j) + ")")
+                    file.write("\n")
+                    num += 1
+        
+        file.close()
+    
+
     def count_exit():
         global count
         count += 1
 
-        if count == 2:
-            clear_states()
+        # if count == 1:
+        #     save_states()
+        #     clear_states()
+        
+        save_states()
+        clear_states()
         
 
     def ToggleButton(i, j):
@@ -131,5 +149,62 @@ screen baduk():
                                 #         idle "rock_transparent" if button_state else "rock_black"
                                 
                                 # action [SetVariable("co", (i, j)), Return()]
+
+
+screen baduk_board():
+    modal True
+    frame:
+        xsize 850
+        ysize 850
+
+        xpadding 50
+        ypadding 50
+        
+        xalign 0.5
+        yalign 0.5
+        
+        add "baduk/board.png":
+            xsize 800
+            fit "contain"
+            xalign 0.5
+            yalign 0.5
+        
+        # vbox:
+        #     xsize 800
+        #     ysize 800
+        #     xalign 0.5
+        #     yalign 0.5
+
+        #     vbox:
+        #         xsize 800-20
+        #         ysize 800-20
+        #         xalign 0.5
+        #         yalign 0.5
+
+        #         grid 19 19:
+        #             spacing 12
+                    
+        #             for i in range(rows):
+        #                 for j in range(cols):
+        #                     $ button_id = "{}_{}".format(i, j)
+
+        #                     imagebutton:
+        #                         xsize 30
+        #                         ysize 30
+        #                         xalign 0.5
+        #                         yalign 0.5
+
+        #                         id button_id
+
+        #                         if button_states[i][j]:
+        #                             idle "rock_white"
+        #                         else:
+        #                             idle "rock_transparent"
+                                
+        #                         action Function(ToggleButton, i, j)
+
+        #                         if i == 0 and j == 0:
+        #                             idle "rock_black"
+        #                             action [SetVariable("co", (i, j)), Function(count_exit), Return()]
 
     

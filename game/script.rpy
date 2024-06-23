@@ -28,6 +28,8 @@ init -2:
 
 
 # 변수
+default choice_flag = 0
+
 default jh_selected = 0
 default kog_selected = 0
 

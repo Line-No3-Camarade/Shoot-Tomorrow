@@ -215,6 +215,23 @@ define gui.choice_button_text_hover_color = "#ffffff"
 define gui.choice_button_text_insensitive_color = "#444444"
 
 
+## 커스텀 선택 버튼들 ######################################################################
+##
+## 커스텀 선택 버튼은 인-게임 메뉴에 사용됩니다.
+
+define gui.choicez_button_width = 1185
+define gui.choicez_button_height = None
+define gui.choicez_button_tile = False
+define gui.choicez_button_borders = Borders(150, 8, 150, 8)
+define gui.choicez_button_text_font = gui.text_font
+define gui.choicez_button_text_size = gui.text_size
+define gui.choicez_button_text_xalign = 0.5
+define gui.choicez_button_text_idle_color = "#cccccc"
+define gui.choicez_button_text_hover_color = "#ffffff"
+define gui.choicez_button_text_insensitive_color = "#444444"
+# define gui.choicez_button_text_insensitive_color = "#7e7e7e"
+
+
 ## 파일 슬롯 버튼 ####################################################################
 ##
 ## 파일 슬롯 버튼은 버튼의 특별한 종류입니다. 그것은 썸네일 이미지나 저장 슬롯의

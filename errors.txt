@@ -2,17 +2,9 @@
 errors listed below, and try again.
 
 
-The label round1 is defined twice, at File "game/script_baduk_test.rpyc", line 20:
-&`c	´)ŽÆú‰LüÀì”[
-and File "game/script_test_baduk.rpy", line 20:
-&`c	´)ŽÆú‰LüÀì”[
-
-
-The label round2 is defined twice, at File "game/script_baduk_test.rpyc", line 34:
-
-and File "game/script_test_baduk.rpy", line 34:
-
-
+File "game/baduk.rpy", line 46: is not terminated with a newline. (Check strings and parenthesis.)
+(Perhaps you left out a " at the end of the first line.)
+            file = open("D:\GitHub\Shoot-Tomorrow\game + "baduk_board.txt", 'w')
 
 Ren'Py Version: Ren'Py 7.4.11.2266
-Sun Jun 23 18:53:11 2024
+Mon Jun 24 01:11:10 2024

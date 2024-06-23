@@ -1269,4 +1269,4 @@ translate None strings:
     old "unescape: Disables escaping of unicode symbols in unicode strings and print it as is (default)."
     new "unescape: Disables escaping of unicode symbols in unicode strings and print it as is (default)."
 
-define gui.system_font = 'SourceHanSansLite.ttf'
+define gui.system_font = 'KoPubWorld Dotum Bold.ttf'
