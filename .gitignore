@@ -1,17 +1,16 @@
 .vscode/
 
-./*.txt
-*.txt
-log.txt
-errors.txt
-traceback.txt
-
-/game/log.txt
+/game/*.txt
 
 /game/saves
 /game/saves/persistent
 /game/saves/*
 *.save
+
 /game/cache
 /game/saves
 /game/saves
+
+./error.txt
+./log.txt
+./traceback.txt
