@@ -1,80 +1,50 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script_test_baduk.rpy", line 77, in script
-    call screen baduk
-  File "renpy/common/000statements.rpy", line 569, in execute_call_screen
-    store._return = renpy.call_screen(name, *args, **kwargs)
-  File "renpy/common/00action_other.rpy", line 537, in __call__
-    rv = self.callable(*self.args, **self.kwargs)
-  File "game/baduk.rpy", line 67, in count_exit
-    save_states()
-  File "game/baduk.rpy", line 46, in save_states
-    file = open("<baduk_board>.txt", 'w')
-IOError: [Errno 22] invalid mode ('w') or filename: u'<baduk_board>.txt'
+  File "game/script_opening.rpy", line 32, in script
+    "파도치는 소리만이 침묵을 메웠다."
+  File "renpy/common/000window.rpy", line 114, in _window_auto_callback
+    _window_show(auto=True)
+  File "renpy/common/000window.rpy", line 69, in _window_show
+    renpy.with_statement(trans)
+IOError: Couldn't find file 'Waves Crashing on Rock Beach.mp3'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script_test_baduk.rpy", line 77, in script
-    call screen baduk
-  File "renpy/ast.py", line 2015, in execute
-    self.call("execute")
-  File "renpy/ast.py", line 2003, in call
-    return renpy.statements.call(method, parsed, *args, **kwargs)
-  File "renpy/statements.py", line 278, in call
-    return method(parsed, *args, **kwargs)
-  File "renpy/common/000statements.rpy", line 569, in execute_call_screen
-    store._return = renpy.call_screen(name, *args, **kwargs)
-  File "renpy/exports.py", line 3136, in call_screen
-    rv = renpy.ui.interact(mouse="screen", type="screen", roll_forward=roll_forward)
-  File "renpy/ui.py", line 298, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "game/script_opening.rpy", line 32, in script
+    "파도치는 소리만이 침묵을 메웠다."
+  File "renpy/ast.py", line 691, in execute
+    statement_name("say")
+  File "renpy/ast.py", line 46, in statement_name
+    i(name)
+  File "renpy/common/000window.rpy", line 114, in _window_auto_callback
+    _window_show(auto=True)
+  File "renpy/common/000window.rpy", line 69, in _window_show
+    renpy.with_statement(trans)
+  File "renpy/exports.py", line 1684, in with_statement
+    return renpy.game.interface.do_with(trans, paired, clear=clear)
+  File "renpy/display/core.py", line 2762, in do_with
+    clear=clear)
   File "renpy/display/core.py", line 3325, in interact
     repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
-  File "renpy/display/core.py", line 4160, in interact_core
-    rv = root_widget.event(ev, x, y, 0)
-  File "renpy/display/layout.py", line 1102, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "renpy/display/layout.py", line 1102, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "renpy/display/layout.py", line 1102, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "renpy/display/screen.py", line 727, in event
-    rv = self.child.event(ev, x, y, st)
-  File "renpy/display/layout.py", line 1102, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "renpy/display/layout.py", line 1323, in event
-    rv = super(Window, self).event(ev, x, y, st)
-  File "renpy/display/layout.py", line 273, in event
-    rv = d.event(ev, x - xo, y - yo, st)
-  File "renpy/display/layout.py", line 1102, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "renpy/display/layout.py", line 1102, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "renpy/display/layout.py", line 1102, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "renpy/display/layout.py", line 273, in event
-    rv = d.event(ev, x - xo, y - yo, st)
-  File "renpy/display/behavior.py", line 983, in event
-    return handle_click(self.clicked)
-  File "renpy/display/behavior.py", line 918, in handle_click
-    rv = run(action)
-  File "renpy/display/behavior.py", line 323, in run
-    new_rv = run(i, *args, **kwargs)
-  File "renpy/display/behavior.py", line 330, in run
-    return action(*args, **kwargs)
-  File "renpy/common/00action_other.rpy", line 537, in __call__
-    rv = self.callable(*self.args, **self.kwargs)
-  File "game/baduk.rpy", line 67, in count_exit
-    save_states()
-  File "game/baduk.rpy", line 46, in save_states
-    file = open("<baduk_board>.txt", 'w')
-  File "renpy/compat/__init__.py", line 94, in compat_open
-    return python_open(*args, **kwargs)
-IOError: [Errno 22] invalid mode ('w') or filename: u'<baduk_board>.txt'
+  File "renpy/display/core.py", line 4025, in interact_core
+    renpy.audio.audio.periodic()
+  File "renpy/audio/audio.py", line 1162, in periodic
+    raise_(exc[0], exc[1], exc[2])
+  File "renpy/audio/audio.py", line 1140, in periodic_thread_main
+    periodic_pass()
+  File "renpy/audio/audio.py", line 1082, in periodic_pass
+    c.periodic()
+  File "renpy/audio/audio.py", line 518, in periodic
+    topf = load(filename)
+  File "renpy/audio/audio.py", line 69, in load
+    rv = renpy.loader.load(fn)
+  File "renpy/loader.py", line 798, in load
+    raise IOError("Couldn't find file '%s'." % name)
+IOError: Couldn't find file 'Waves Crashing on Rock Beach.mp3'.
 
 Windows-10-10.0.22621
 Ren'Py 7.4.11.2266
 Shoot Tomorrow 1.0
-Mon Jun 24 01:14:30 2024
+Sun Aug 11 14:54:58 2024
